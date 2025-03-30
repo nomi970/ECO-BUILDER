@@ -1,0 +1,137 @@
+.pricing_sec{
+    margin: 195px 0 0;
+}
+.pricing_col{
+    text-align: center;
+}
+.pricing_col p{
+    color: var(--color-grey);
+}   
+.pricing_row{
+    gap: 20px;
+   
+}
+.price_col{
+    background-color: #A0E4DE1A;
+    border-radius: 12px;
+    padding: 46px 29px 24px !important;
+    transition: 0.4s;
+}
+.price_col:hover{
+    background-color: #fff;
+}
+.price_col:hover a{
+    background-color: var(--color-lite-green);
+    color: #fff;
+}
+.price_col h2{
+    color: var(--color-dark);
+    font-size: 32px;
+    font-weight: 700;
+}
+.price_col p{
+    color: var(--color-grey);
+    padding: 12px 0 20px;
+}
+.price_col h3{
+    color: var(--color-dark);
+    font-size: 54px;
+    font-weight: 700;
+}
+.price_col h3 span{
+    font-weight: 400;
+    color: var(--color-grey);
+    font-size: 16px;
+}
+.price_col a{
+    display: block;
+    text-decoration: none;
+    padding: 7px 32px;
+    border: 1px solid var(--color-lite-green);
+    color: var(--color-lite-green);
+    font-size: 14px;
+    text-align: center;
+    border-radius: 9px;
+    margin: 25px 0 43px;
+    transition: 0.4s;
+}
+.price_col ul{
+    padding: 0;
+}
+.price_col ul li{
+    display: flex;
+    margin-bottom: 19px;
+    align-items: flex-start;
+}
+.price_col ul li img{
+    width: 25px;
+    margin-right: 16px;
+}
+.tggle_row{
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 0;
+    position: relative;
+}
+.tggle_row{
+    color: var(--color-dark);
+}
+.tggle_row img{
+    position: absolute;
+    width: 12%;
+    left: 0;
+    right: -181px;
+    margin: auto;
+    bottom: 0;
+}
+.switch{
+    margin: 0 20px;
+}
+
+
+@media screen and (max-width:1100px){
+    .pricing_sec{
+        margin: 130px 0 0;
+    }
+}
+
+@media screen and (max-width:800px){
+    .price_col{
+        padding: 40px 16px 20px !important;
+    }
+    .price_col h3{
+        font-size: 38px;
+    }
+    .price_col ul li{
+        margin-bottom: 13px;
+    }
+    .price_col ul li img {
+        width: 20px;
+        margin-right: 11px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .pricing_row{
+        flex-direction: column;
+    }
+    .pricing_sec{
+        margin: 80px 0 0;
+    }
+    .price_col a{
+        margin: 25px 0 25px;
+    }
+    .price_col h3,
+    .price_col h2{
+        font-size: 30px;
+    }
+    .price_col{
+        background-color: #fff;
+    }
+    .tggle_row img{
+        width: 40%;
+        right: -158px;
+    }
+}

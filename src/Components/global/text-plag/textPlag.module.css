@@ -1,0 +1,189 @@
+.plag_row{
+    gap:20px;
+    padding-top: 42px;
+}
+.plag_row2{
+    padding-top: 35px;
+}
+.plag_row2 img{
+    width: 21% !important;
+}
+.plag_row img{
+    width: 35%;
+}
+.plag_row h6{
+    font-size: 20px;
+    color: var(--color-dark);
+    font-weight: 600;
+    padding: 30px 0 0;
+}
+.plag_row p{
+    color: var(--color-grey );  
+}
+.plag_col{
+    padding: 25px 23px 41px !important;
+    border-radius: 9px;
+}
+.plag_col2{
+    padding: 32px 22px 41px !important;
+}
+.plag_sec{
+    margin: 130px 0;
+}
+.plag_sec p{
+    padding-top: 20px;
+}
+.addClass{
+    margin: 110px 0 110px;
+}
+.Plag_text{
+    margin: 0 auto;
+    max-width: 1008px;
+}
+
+@media screen and (max-width:1100px){
+    .addClass{
+        margin: 130px 0 130px;
+    }
+    .plag_sec{
+        margin: 80px 0;
+    }
+}
+
+@media screen and (max-width:800px){
+    .plag_col {
+        padding: 25px 13px 41px !important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .plag_row{
+        flex-direction: column;
+    }
+    .plag_sec{
+        margin: 80px 0;
+    }
+    .plag_row img{
+        width: 28%;
+    }
+    .plag_row h6{
+        font-size: 18px;
+        padding: 30px 0 0;
+    }
+    .plag_sec p{
+        font-size: 16px;
+    }
+}
+.cardz {
+    width: 100%;
+    max-width: 350px;
+    background: transparent;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 0 !important;
+}
+
+.cardz:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    padding-bottom: 15px !important;
+}
+
+/* Background Image */
+.imageContainer {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.cardz:hover .imageContainer {
+    transform: scale(1.1); /* Scale up effect on hover */
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    margin-top: -40px; /* Moves content up, overlapping the image */
+    z-index: 2;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+/* Icon Styling */
+.icon {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -30px auto 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.5s ease;
+}
+
+/* Flip Icon on Hover */
+.cardz:hover .icon {
+    transform: rotateY(360deg);
+}
+/* Project Card */
+.projectCard {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Background Image */
+.projectImage {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Overlay - Initially Positioned Completely Outside */
+.projectOverlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    right: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.39);
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    transition: left 0.4s ease-out, right 0.4s ease-out;
+    opacity: 0;
+}
+
+/* Hover Effect - Move From Left & Right Towards Center */
+.projectImage:hover .projectOverlay {
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+.projectOverlay h6,
+.projectOverlay p {
+    color: white;
+}

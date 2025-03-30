@@ -1,0 +1,14 @@
+.about_hero{
+    height: 70vh !important ;
+    background-image: url(https://lh3.googleusercontent.com/BZg8xd8Xdd8lms2sOILTY0WD4wcdFdqm8M5YpDkLZ3516uktmYfO8mTVOGp4iazfhLAdoCYPCyE22Z1m8qfeswCFZdfGgLtRIiQEsncPUQmkeqgdAeqU-Lb-kYHe=w599-nu-rw-e365);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+    width: 100%;
+    /* margin-top: 100px; */
+    /* padding-top:  100px !important; */
+}
+.about_hero_text p{
+    color: red !important;
+}

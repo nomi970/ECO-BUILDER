@@ -1,0 +1,76 @@
+{
+    "data" : [
+        {
+            "id":1,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"NEW build",
+            "catategry":"Tag1",
+            "blogImag":"https://lh3.googleusercontent.com/G19a_D4oREsKzbZ--RAROxaJXliolWD9KViBTonWBcIGhjRHfgcJZK03bpqNQfKz0hUHgwpV7tiif1n1_gXtVUZHTRN3_o8qwSEmwIbj9K6xNXwDV_jFtKBWJS3byA=w599-nu-rw-e365",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Specializing in new construction, we tailor each project to meet your specific needs, ensuring a seamless build from groundbreaking to final handover",
+            "date" : "Aug 9, 2023",
+            "raedTime" : "11 min"
+        },
+        {
+            "id":2,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Home Extensions",
+            "catategry":"Tag1",
+            "blogImag":"https://lh3.googleusercontent.com/BZg8xd8Xdd8lms2sOILTY0WD4wcdFdqm8M5YpDkLZ3516uktmYfO8mTVOGp4iazfhLAdoCYPCyE22Z1m8qfeswCFZdfGgLtRIiQEsncPUQmkeqgdAeqU-Lb-kYHe=w599-nu-rw-e365",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
+            "date" : "Aug 9, 2023",
+            "raedTime" : "11 min"
+        },
+        {
+            "id":3,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"LOFT OR BASEMENT CONVERSIONS",
+            "catategry":"Tag1",
+            "blogImag":"https://lh3.googleusercontent.com/u6sjv6Q9peBuPkPz_yf0pxouoDi2Mc2QAlb6zDLAwDP4nJxprKkq6jpHV4wKaOl9JDbHF0bsbakjiGQ-wpiK64-q-hw0BmynPNaijME3D8vt4J28NP5__HJ7Ojfj=w599-nu-rw-e365",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
+            "date" : "Aug 9, 2023",
+            "raedTime" : "11 min"
+        },
+        {
+            "id":4,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"DESIGN AND BUILD",
+            "catategry":"Tag1",
+            "blogImag":"https://lh3.googleusercontent.com/6cYrYvLJip-k69UwAY_IFmqcGY5CKoHaUl8Cowt6q9e3Qy0rZxh4xlNqvTxGacTUONpQwBManl9_8wSEt97011rcmX5SgdMEZYcJ1hx9sRWObgMBXoE7-JRif9WB=w599-nu-rw-e365",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Crafting your dream home from concept to completion, our custom home building services ensure a personalized living space that reflects your unique style and needs.",
+            "date" : "Aug 9, 2023",
+            "raedTime" : "11 min"
+        },
+        {
+            "id":5,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"COMMERCIAL CONSTRUCTION",
+            "catategry":"Tag1",
+            "blogImag":"https://lh3.googleusercontent.com/HRurPmVlBA9hRYorhiJ4zEK2IhRUm1QvWdebpFgLN3siro5TAnICIjs3IG8hUXN-p6R5eF2LaVdnYtCm6_dIlXnRneEz8gPYYHFIfGH0YMhcj5ts8nw7C0zn3Lql=w599-nu-rw-e365",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "For commercial spaces, we provide tailored construction solutions to meet your business needs, ensuring functionality and aesthetic appeal.",
+            "date" : "Aug 9, 2023",
+            "raedTime" : "11 min"
+        },
+        {
+            "id":6,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Renovations & Remodeling",
+            "catategry":"Tag1",
+            "blogImag":"https://lh3.googleusercontent.com/Z-Mm23bYzHeiIYSgmbU2DtDoLyPpU4q_HyJKowa2QFI0IYalr3YcUZvV1fl7T4WEf150-4nQ-XuZmEo1aZtOn_ppZFcnWE3CWBYGbi1IMYNGvf8o7O1kDtHlKQ0qvQ=w599-nu-rw-e365",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Transform your space with our renovation and remodeling expertise, bringing fresh life and functionality to your home or business.",
+            "date" : "Aug 9, 2023",
+            "raedTime" : "11 min"
+        }
+    ]
+}

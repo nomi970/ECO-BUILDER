@@ -1,0 +1,34 @@
+.testimonial_col{
+    text-align: center;
+}
+.testimonial_col img{
+    max-width: 12%;
+    margin-bottom: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonial_col p{
+    color: var(--color-grey);
+    margin: 0 auto !important;
+    max-width: 857px;
+}
+.testimonial_col h6{
+    font-size: 18px;
+    color: var(--color-dark);
+    padding: 15px 0;
+}
+.customer_text{
+    margin-bottom: 35px;
+}
+.customer_text p{
+    text-align: center;
+    padding-top: 15px;
+    color: var(--color-grey);
+}
+
+
+@media screen and (max-width:767px){
+    .testimonial_col img{
+        max-width: 24%;
+    }
+}

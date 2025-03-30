@@ -1,0 +1,168 @@
+.boots_sec{
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 62px;
+    border-radius: 15px;
+}
+.boots_sec p{
+    color: var(--color-dark);
+    font-size: 20px;
+}
+.boots_sec h5{
+    color: #000;
+    font-size: 40px;
+    padding: 20px 0 13px;
+}   
+.boots_sec h6{
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.boots_sec a{
+    background: #A0E4DE;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 48px;
+}
+
+
+@media screen and (max-width:767px){
+    .boots_sec h5{
+        font-size: 22px;
+        padding: 20px 0 20px;
+    }
+    .boots_sec a{
+        padding: 11px 20px;
+        font-size: 14px;
+    }
+}
+/* Section Container */
+.boost_section {
+    background-color: #f0fafa;
+    padding: 60px 0;
+}
+
+/* Core Values Header */
+.core_values_header {
+    text-align: left;
+    /* max-width: 1000px; */
+    margin: 0 auto 40px auto;
+    padding: 20px;
+}
+
+.underline {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: #feb900;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.core_values_header h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+.core_values_header p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 10px !important;
+}
+.core_values_header span{
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Icons & Value Boxes */
+
+.values_container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+    align-items: stretch; /* Ensures equal height for all columns */
+    flex-wrap: wrap; /* Allows breaking into multiple rows */
+    margin-top: 80px;
+}
+
+/* Individual Value Box */
+.value_box {
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+/* Ensure all icons and titles align */
+.icon_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Force Titles to Align */
+.value_title {
+    min-height: 60px; /* Ensure consistent height for all titles */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Ensure All Text Content Below Title Stays in Alignment */
+.value_content {
+    flex-grow: 1; /* Makes all text content take up equal space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Divider (Desktop - Vertical) */
+.divider {
+    width: 2px;
+    background-color: #feb900;
+    align-self: stretch; /* Makes the divider match the height of the tallest column */
+}
+
+/* Divider (Mobile - Horizontal Centered) */
+@media (max-width: 768px) {
+    .values_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divider {
+        width: 80%;
+        height: 2px;
+        margin: 20px auto;
+    }
+
+    .core_values_header {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  

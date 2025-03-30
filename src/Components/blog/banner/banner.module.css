@@ -1,0 +1,44 @@
+.banner_searc{
+    display: flex;
+}
+.banner_search img{
+    max-width: 20px;
+    margin-right: 10px;
+}
+.banner_search {
+    border: 1px solid #D0D5DD;
+    display: flex;
+    align-items: center;
+    padding: 7px 19px;
+    border-radius: 8px;
+    margin: 33px auto;
+    max-width: 600px;
+}
+.banner_search input[type=search]{
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+.banner_search input[type=search]:focus{
+    outline: none;
+}
+.banner_heading{
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    padding-top: 81px;
+}
+.banner_sec {
+    position: relative;
+    background-image: url(https://img.freepik.com/free-photo/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-602.jpg?t=st=1743172114~exp=1743175714~hmac=8421ac2faefeb9e1847c80be36edb6de9699ade976187a4eb3938f7fda83b786&w=996);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
