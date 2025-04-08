@@ -31,7 +31,7 @@
 //   )
 // }
 import React, { useState, useEffect, useRef } from 'react';
-import { SecondHeading } from "../../global/headings/second-heading/SecondHeading";
+import { SecondHeading } from "../headings/second-heading/SecondHeading";
 import style from "./number.module.css";
 import { Row, Col } from 'react-bootstrap';
 

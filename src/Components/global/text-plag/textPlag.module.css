@@ -1,3 +1,55 @@
+.plag_row02{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr; /* Equal columns */
+    row-gap: 50px;
+    column-gap: 20px;
+    padding-top: 20px;
+    align-items: stretch; /* Ensures all cards are equal height */
+}
+.plag_row12 {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr); /* Equal columns */
+    row-gap: 50px;
+    column-gap: 20px;
+    padding-top: 20px;
+    align-items: stretch; /* Ensures all cards are equal height */
+}
+
+.content {
+    flex-grow: 1; /* Ensures the content expands to match the height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.link_more{
+    display: block;
+    width: 100%;
+    background-color: var(--color-yellow);
+    color: #fff;
+    padding: 12px 34px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: inline-block;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.readmore{
+    background-color: #feb900;
+    display: block;
+    width: fit-content;
+    padding: 12px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 40px !important;
+    color: white;
+    margin: 0 auto;
+  }
+.link_more:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+}
+
 .plag_row{
     gap:20px;
     padding-top: 42px;
@@ -54,6 +106,11 @@
     .plag_col {
         padding: 25px 13px 41px !important;
     }
+    .plag_row02,
+    .plag_row12{
+        grid-template-columns: 1fr 1fr; 
+    }
+    
 }
 
 @media screen and (max-width:767px){
@@ -74,23 +131,35 @@
         font-size: 16px;
     }
 }
+@media screen and (max-width:500px){
+    .plag_row02,
+    .plag_row12{
+        grid-template-columns: 1fr; 
+    }
+}
+
 .cardz {
-    width: 100%;
-    max-width: 350px;
+    width: 100%; /* Ensures it takes full column width */
     background: transparent;
     border-radius: 10px;
-    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
     overflow: hidden;
     text-align: center;
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding: 0 !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is distributed evenly */
+    height: 100%; /* Forces equal height */
 }
+
 
 .cardz:hover {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
-    padding-bottom: 15px !important;
+    transform: translateY(-5px); /* Moves card up slightly */
 }
+
 
 /* Background Image */
 .imageContainer {

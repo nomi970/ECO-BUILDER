@@ -1,0 +1,49 @@
+.heroSection {
+    background-image: url('../../../../public/images/dream_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .heroOverlay {
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 2rem;
+    max-width: 600px;
+    border-radius: 12px;
+  }
+  
+  .heroText h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  
+  .heroText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #e5e5e5;
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .heroOverlay {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0; /* Ensure it starts invisible */
+  }
+  

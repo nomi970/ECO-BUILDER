@@ -27,6 +27,13 @@
     .number_sec{
         margin: 130px 0 130px;
     }
+    .number_row h6{
+        font-size: 50px;
+        font-weight:700 ;
+    }
+    .number_row{
+        gap: 100px;
+    }
 }
 
 @media screen and (max-width:800px){

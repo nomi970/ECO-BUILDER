@@ -3,6 +3,9 @@ import { SecondHeading } from "../headings/second-heading/SecondHeading";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import style from './textPlag.module.css';
+import { Link } from "react-router-dom";
+
+
 
 export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
    
@@ -15,9 +18,9 @@ export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
                     <p className='text-sm color-grey fw-normal text-center'>{para}</p>
                 </div>
 
-                <Row className={`${style.plag_row} ${styling2 && style.plag_row2}`}>
+                <Row className={`${style.plag_row12} ${styling2 && style.plag_row2}`}>
                     {
-                        data2.map(({img, title, desc, icon}, i)=>{
+                        data2.map(({img, title, desc, icon, link}, i)=>{
                             return(
                                 <Col className={style.cardz}>
                                     {/* Background Image Container */}
@@ -30,6 +33,11 @@ export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
                                         </div>
                                         <h6>{title}</h6> {/* Dynamic Title */}
                                         <p>{desc}</p> {/* Dynamic Description */}
+                                        <p>
+                                            <Link to={link} className={style.link_more}>
+                                                Learn More
+                                            </Link>
+                                        </p>
                                     </div>
                                 </Col>
                             )
