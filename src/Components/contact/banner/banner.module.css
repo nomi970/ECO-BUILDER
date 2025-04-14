@@ -1,4 +1,4 @@
-.banner_row{
+/* .banner_row{
     display: flex;
     justify-content: space-between;
    align-items: center;
@@ -69,4 +69,66 @@
     .banner_col h6{
         font-size: 18px;
     }
+} */
+
+
+.banner_hero {
+  padding: 80px 0;
+  background-color: #f9f9f9;
 }
+
+.banner_text_col {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.banner_image_col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_image_col img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero_desc {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.cta_btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #32cd32;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.about_hero{
+    height: 70vh !important ;
+    background-image: url(../../../../public/images/contact_us_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+    width: 100%;
+    /* margin-top: 100px; */
+    padding-top:  130px !important;
+    color: white;
+    
+}
+
+.hero_desc{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 15px !important;
+}
+

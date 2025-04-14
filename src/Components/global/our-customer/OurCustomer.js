@@ -33,7 +33,7 @@ export const OurCustomer = () => {
     ]
     return (
         <>
-            <section>
+            <section className={style.our_customer_sec}>
                 <div className='custom-container custom_row'>
                    <div className={style.customer_text}>
                         {/* <SecondHeading heading="What Our Clients Say About Us" /> */}

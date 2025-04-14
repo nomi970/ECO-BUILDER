@@ -6,6 +6,7 @@ import { PlansPricing } from '../../Components/home/plans-pricing/PlansPricing'
 import { Numbers } from '../../Components/global/numbers/Numbers'
 import { OurCustomer } from '../../Components/global/our-customer/OurCustomer'
 import { TextPlagirism2 } from '../../Components/global/text-plag/TextPlagirism2'
+import ContactSection from '../../Components/global/contactSection/contactSection';
 
 
 export const Home = () => {
@@ -32,7 +33,8 @@ export const Home = () => {
         img:"https://connectecobuilders.com/wp-content/uploads/2024/03/2.webp",
         title:"New Build",
         desc:"Specializing in new construction, we tailor each project to meet your specific needs, ensuring a seamless build from groundbreaking to final handover",
-        icon: "https://cdn-icons-png.flaticon.com/128/16120/16120617.png"
+        icon: "https://cdn-icons-png.flaticon.com/128/16120/16120617.png",
+        link: "/new-build"
     },
     {
         img:"https://connectecobuilders.com/wp-content/uploads/2024/03/3.webp",
@@ -46,6 +48,24 @@ export const Home = () => {
         desc:"Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
         icon: "https://cdn-icons-png.flaticon.com/128/8994/8994135.png" 
     },
+    {
+      img:"https://lh3.googleusercontent.com/pWCnBEudJsA3ZBTh1QO5lwWi-mnnxf77r0rLxY6EGwie3FOkpmx41HEL-Ixu1nRSBp6XAgyXfPizTYD0O8rgk07-YWV5-XgnHIkhy3CEO9xECCJ3h2cWDOT4Oha1bK8=w599-nu-rw-e365",
+      title:"Design and Build",
+      desc:"Crafting your dream home from concept to completion, our custom home building services ensure a personalized living space that reflects your unique style and needs.",
+      icon: "https://cdn-icons-png.freepik.com/256/2942/2942452.png?ga=GA1.1.1560891219.1722257603&semt=ais_hybrid" 
+  },
+  {
+    img:"https://lh3.googleusercontent.com/7Tx2pNcxDxH4Nast8oYxvUwA1kLD6KszJ7zgV-ZvCvErIHH8nty5bYdc-bd3H1U51C0UDdkGQWKQZYuqToDqS_y5DEz-Hlpgk_biPbFK2o8deE4omgi1tYVdzAoUvw=w800-nu-rw-e365",
+    title:"Commercial Construction",
+    desc:"For commercial spaces, we provide tailored construction solutions to meet your business needs, ensuring functionality and aesthetic appeal.",
+    icon: "https://cdn-icons-png.flaticon.com/128/12618/12618649.png" 
+},
+{
+  img:"https://lh3.googleusercontent.com/KJwVsWv78Pxpl53AiZ7hMexs8GPohsRqHnuZM4Hrewa9WMkwkJtkJURWED4mNEzipY4GlRRqizVfLKVZ0RSrk-m5wAOrF4ulCFbjUXjzopKeqRyHxmOx4BgoX4mc=w599-nu-rw-e365",
+  title:"Renovations & Remodeling",
+  desc:"Transform your space with our renovation and remodeling expertise, bringing fresh life and functionality to your home or business.",
+  icon: "https://cdn-icons-png.flaticon.com/128/2942/2942551.png" 
+},
 //     {
 //       img:"./images/time.png",
 //       title:"Design and Build",
@@ -76,18 +96,18 @@ export const Home = () => {
       title:"",
       desc:"From Plot of Land to New Build Project in GREAT MISSENDEN"
   },
-//   {     img:"./images/accurate.png",
-//     title:"",
-//     desc:"Single story bungalow converted to double story Chalet bungalow in GALLOWSTREE COMMON, READING"
-// },
-// {     img:"./images/accurate.png",
-//   title:"",
-//   desc:"New build double story chalet bungalow in GERRARD CROSS"
-// },
-// {     img:"./images/accurate.png",
-//   title:"",
-//   desc:"Single story Extension and Renovation in READING"
-// },
+  {     img:"https://lh3.googleusercontent.com/zH0P5HE7XTlf8nwxIHh8ilFYDLTc_boUgAnoyuSGFcnmLhTrA_MIcI7sdLWfZsXLE0G_umqUa7J9JwI7J1VCR_CREtS1kyb8s0_-6r78m8NgOF4VuFWKLCp1hIYY=w599-nu-rw-e365",
+    title:"",
+    desc:"Single story bungalow converted to double story Chalet bungalow in GALLOWSTREE COMMON, READING"
+},
+{     img:"https://lh3.googleusercontent.com/tMHxjScQUyNFUfuMooWIM7YYoPNqQBE3vhE_eyGCNLZTIoaymjwWWFKd_rD5NPOEuiPiQeUWqyciBS6_K_lMl--WufKmv2PkFeWl8jpN6E76KWl9mVs-KdnO3zfBjww=w599-nu-rw-e365",
+  title:"",
+  desc:"New build double story chalet bungalow in GERRARD CROSS"
+},
+{     img:"https://lh3.googleusercontent.com/TQM6ybANxzKjrYt1Xp07Vr5gC8ptzlEJavhpFBt04X5orNmORTbfWjbj578L4B1k8hR9R6snXvRWexXwRwbwELI4ZCUNQ7yAsz9aoJqPROIvbNMp9cA3myS7oHosVg=w599-nu-rw-e365",
+  title:"",
+  desc:"Single story Extension and Renovation in READING"
+},
 
   ]
   useEffect(()=>{
@@ -120,6 +140,7 @@ export const Home = () => {
       />
        {/* <Link to="#" className={`${style.readmore}`}>Read More</Link> */}
       <OurCustomer />
+      <ContactSection />
     </>
   )
 }

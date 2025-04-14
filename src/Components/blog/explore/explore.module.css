@@ -1,0 +1,81 @@
+/* explore.module.css */
+.projectSection {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  /* Background Video */
+  .backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Dark Overlay for Better Readability */
+  .imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  /* Content Container */
+  .contentContainer {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .subheading {
+    font-size: 18px;
+    color: #feb900;
+    padding-bottom: 12px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #ddd;
+    padding-top: 14px;
+    margin-bottom: 20px;
+  }
+  
+  /* CTA Button */
+  .ctaButton {
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #feb900, #feb900);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .ctaButton:hover {
+    background: linear-gradient(45deg, #feb900, #feb900);
+    transform: translateY(-3px);
+  }
+  

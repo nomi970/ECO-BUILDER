@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .blog_date_row{
     display: flex;
     justify-content: center;
@@ -70,3 +72,277 @@
         font-size: 18px;
     }
 }
+.service_detail_hero{
+    height: 70vh !important ;
+    /* background-image: url(../../../public/images/contact_us_bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+    width: 100%;
+    /* margin-top: 100px; */
+    padding-top:  130px !important;
+    color: white;
+}
+.breadcrumb_link {
+    color: #feb900;
+    font-size: 20px;
+    text-decoration: none; 
+    font-weight: 500;
+}
+
+
+.breadcrumb_separator {
+    margin: 0 10px;
+    color: white; 
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero_title_stl{
+    font-size: 45px;
+    padding: 15px 0px;
+    font-weight: 600;
+}
+.hero_title_desc{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.service_detail_hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Adjust according to your layout */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* This creates the black overlay with 40% opacity */
+    z-index: 1;
+  }
+  
+  .custom-container {
+    position: relative;
+    z-index: 2; /* Ensures text is on top of the overlay */
+  }
+  
+  .about_hero_text {
+    position: relative;
+    z-index: 2; /* Ensures text is on top of the overlay */
+  }
+  
+
+
+
+
+  .sectionContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: left;
+    padding: 70px 0px 80px 0px;
+    /* background-color: white; */
+    min-height: 70vh;
+  }
+  
+  .boxContainer {
+    position: relative;
+    width: 260px;
+    height: 360px;
+    margin-right: 400px;
+  }
+  
+  .box {
+    position: absolute;
+  }
+  
+  .boxBack {
+    width: 430px;
+    height: 530px;
+    background-color: #c5c5c5;
+    background: url('../../../public/images/b-9.jpg') no-repeat center center / cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  
+  .boxFront {
+    width: 190px;
+    height: 260px;
+    background-color: #a88d8d;
+    background: url('../../../public/images/gt_bg.png') no-repeat center center / cover;
+    top: 245px;
+    left: 270px;
+    box-shadow: 14px 8px 12px rgba(0, 0, 0, 0.336);
+    z-index: 2;
+  }
+  
+  .textContainer {
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #0f4a63;
+  }
+  .textContainer p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .textContainer ul h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #feb900;
+    padding: 18px 0px;
+  }
+  .textContainer ul li{
+    list-style: disc;
+    font-size: 18px;
+    padding: 6px 0px;
+  }
+  .textContainer ul li::marker {
+    color: #feb900; 
+  }
+  .service1_sec2_title{
+    font-size: 50px;
+    font-weight: 700;
+    /* margin-top: -100px !important; */
+    text-align: center;
+    padding-top: 90px;
+  }
+  .service1_sec2_desc{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: 400;
+  }
+  @media only screen and (max-width: 1230px) {
+    .textContainer {
+      max-width: 500px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .sectionContainer {
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      flex-wrap: wrap !important;
+    }
+    .missionWrapper::after{
+      top: -55px !important;
+      left: 4px !important;
+    }
+    .building_services_main{
+      width: 100%;
+      margin-top: -150px;
+    }
+    .leftBox{
+      width: -webkit-fill-available !important;
+      height: 400px;
+    }
+    .missionWrapper{
+      flex-wrap: wrap;
+    }
+    .textContainer ul{
+      text-align: left;
+    }
+    .boxContainer {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .boxBack {
+      width: 100%;
+      height: 350px;
+      aspect-ratio: 1 / 1;
+      background-size: cover;
+    }
+  
+    .boxFront {
+        position: absolute;
+        width: 49%;
+        height: 150px;
+        top: 51%;
+        left: 59%;
+    }
+  
+    .textContainer {
+      max-width: 100%;
+      text-align: center;
+      padding: 0 10px;
+    }
+  }
+  
+
+
+
+  .missionWrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    /* background-color: #064d3b77; */
+  }
+  .missionWrapper::after{
+    position: absolute;
+    content: '';
+    top: 100px;
+    left: -100px;
+    background-image: url('../../../public/images/dotted.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 132px;
+    height: 132px;
+
+  }
+  
+  .leftBox {
+    width: 450px;
+    height: 500px;
+    background-image: url(../../../public/images/b-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+  }
+  
+  .rightBox {
+    background-color: #004225; 
+    color: white;
+    padding: 60px 50px;
+    border-bottom-right-radius: 40px;
+    flex: 1;
+    margin-left: -50px; /* thoda overlap effect dene ke liye */
+    z-index: 1;
+    position: relative;
+  }
+  
+  .rightBox h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .rightBox p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  .building_services_title{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Montserrat;
+  }
+  .building_services_desc{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 8px;
+  }
+  .building_services_main{
+   background-color: #064d3b;
+    padding: 60px 20px;
+    color: white;
+    border-radius: 0px 16px 16px 0px;
+    
+  }
