@@ -59,6 +59,7 @@ export const Footer = () => {
                                 alt="Houseline Logo" 
                                 className={style.footer_logo} 
                             />
+                            {/* <p>LOGO</p> */}
                         </Link>                            <p>Drop your email to subscribe to our NEWSletter</p>
                             <input type="email" placeholder="Your email" className={style.email_input} />
                             <button className={style.subscribe_btn}>Subscribe</button>

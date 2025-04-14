@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Numbers } from '../../Components/global/numbers/Numbers'
 import {Banner} from '../../Components/contact/banner/Banner'
 import ContactSection from '../../Components/global/contactSection/contactSection'
+import Touch from '../../Components/global/touch/touch'
 
 export const ContactUs = () => {
   useEffect(()=>{
@@ -36,6 +37,7 @@ export const ContactUs = () => {
         para="Our numbers are more than just figures; they represent the trust, hard work, and innovation we deliver every day."
         data={data}
       />
+      <Touch />
       <ContactSection />
     </>
   )
