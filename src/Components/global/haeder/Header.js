@@ -101,6 +101,7 @@ export const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  
   return (
     <Navbar expand="md" className={`${style.nav__stl} ${scroll ? style.scrolled : ""}`}>
       <Container fluid className='custom-container'>
