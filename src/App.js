@@ -23,8 +23,8 @@ export const App = () => {
             <Route path="/" element={<Home />} exact />
             <Route path="/about" element={<About />} exact />
             <Route path="/contact-us" element={<ContactUs />} exact />
-            <Route path="/blog" element={<Blog />} exact />
-            <Route path="/blog/:id" element={<BlogDetail />} exact />
+            <Route path="/service" element={<Blog />} exact />
+            <Route path="/service/:id" element={<BlogDetail />} exact />
           </Routes>
         </Layout>
       </Router>

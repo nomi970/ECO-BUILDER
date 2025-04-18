@@ -69,10 +69,10 @@ export const Footer = () => {
                     <Col className='p-0'>
                         <h5>Company</h5>
                         <ul className={style.footer_list}>
-                            <li><Link to="#">About Us</Link></li>
-                            <li><Link to="#">Services</Link></li>
-                            <li><Link to="#">Projects</Link></li>
-                            <li><Link to="#">Contact</Link></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About Us</Link></li>
+                            <li><Link to="/service">Services</Link></li>
+                            <li><Link to="/contact-us">Contact</Link></li>
                         </ul>
                     </Col>
                     <Col className='p-0 address_info'>
