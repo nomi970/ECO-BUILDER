@@ -234,3 +234,9 @@
   .custom-container{
     width: 100% !important;
   }
+
+  @media screen and (max-width:550px){
+    .section{
+      min-height: 100vh;
+    }
+  }

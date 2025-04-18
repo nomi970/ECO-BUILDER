@@ -45,10 +45,11 @@
     background-color: rgba(255, 255, 255, 0.452); /* Semi-transparent white */
     backdrop-filter: blur(10px); /* Blur effect */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 0 !important;
-    height: 80px;
+    /* padding: 0 !important; */
+    /* height: 80px; */
     z-index: 1000;
 }
+
 @media screen and (max-width:800px){
     .nav__stl {
         background-color: white;

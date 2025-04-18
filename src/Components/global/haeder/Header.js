@@ -122,8 +122,9 @@ export const Header = () => {
                 
                 </Nav>
                 <div className="d-flex">
-                  <Button variant="light" className={`${style.nav_btn} me-2`}>Login</Button>
-                  <Button variant="light" className={`${style.nav_btn}`}>Free Trials</Button>
+                  {/* <Button variant="light" className={`${style.nav_btn} me-2`}>Login</Button>
+                  <Button variant="light" className={`${style.nav_btn}`}>Free Trials</Button> */}
+                  
                 </div>
               </div>
               :

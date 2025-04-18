@@ -11,7 +11,7 @@
     grid-template-columns: repeat(3, 1fr); /* Equal columns */
     row-gap: 50px;
     column-gap: 20px;
-    padding-top: 20px;
+    padding-top: 80px;
     align-items: stretch; /* Ensures all cards are equal height */
 }
 
@@ -136,6 +136,9 @@
     .plag_row12{
         grid-template-columns: 1fr; 
     }
+    .plag_row12{
+        padding-top: 40px;
+    }
 }
 
 .cardz {
@@ -255,4 +258,10 @@
 .projectOverlay h6,
 .projectOverlay p {
     color: white;
+}
+.content h6 {
+    font-size: 20px;
+    color: var(--color-yellow);
+    font-weight: 600;
+    padding-top: 12px;
 }

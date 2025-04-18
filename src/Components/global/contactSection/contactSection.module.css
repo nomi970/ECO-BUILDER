@@ -496,3 +496,12 @@
 .flipped {
   transform: rotateY(180deg);
 }
+
+@media screen and (max-width:550px){
+  .option{
+    padding: 3rem;
+  }
+  .optionInnerBack p{
+    color: black;
+  }
+}
