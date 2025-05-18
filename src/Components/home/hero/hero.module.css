@@ -70,6 +70,18 @@
 .text_blr_white{
     color: rgba(255, 255, 255, 0.603);
 }
+.approved_im{
+    width: 300px;
+    height: 130px;
+}
+.approvesd_sec{
+    padding: 30px 0px;
+}
+.approvesd_sec h4{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
 @media screen and (max-width:767px){
     .banner_row{
         flex-direction: column;

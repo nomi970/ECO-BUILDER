@@ -31,6 +31,8 @@
 }
 .nav_listing a{
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
 }
 .nav__stl {
     position: fixed;
@@ -39,16 +41,19 @@
     z-index: 1000;
     transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
 }
-
+.nav_logo{
+    width: 160px;
+}
 /* Background turns white with blur effect on scroll */
 .scrolled {
     background-color: rgba(255, 255, 255, 0.452); /* Semi-transparent white */
     backdrop-filter: blur(10px); /* Blur effect */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 0 !important;
-    height: 80px;
+    /* padding: 0 !important; */
+    /* height: 80px; */
     z-index: 1000;
 }
+
 @media screen and (max-width:800px){
     .nav__stl {
         background-color: white;

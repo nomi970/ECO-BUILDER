@@ -7,7 +7,7 @@ import Dream from '../../Components/blog/dream/dream'
 
 export const Blog = () => {
   useEffect(()=>{
-    document.title = "Blog"
+    document.title = "Service"
   },[])
   return (
     <>

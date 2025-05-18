@@ -146,7 +146,18 @@
     }
 
     .core_values_header {
-        text-align: center;
+        text-align: left;
+    }
+    .core_values_header h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .core_values_header span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .boost_section {
+        padding: 40px 0;
     }
 }
 

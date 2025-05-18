@@ -228,5 +228,12 @@ h5 {
     .footer_bottom {
         flex-direction: column;
         text-align: center;
+        padding: 8px 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer_social{
+        flex-wrap: wrap !important;
+        justify-content: center;
     }
 }

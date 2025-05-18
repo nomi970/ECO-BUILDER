@@ -76,7 +76,8 @@ img{
 .hide{
   visibility: visible;
   transition: 0.4s;
-  height: 250px;
+  /* height: 250px; */
+  height: 100vh !important;
   opacity: 1;
 }
 .show{
@@ -117,7 +118,11 @@ img{
     padding-right: 40px !important;
   }
 }
-
+@media screen and (max-width:992px){
+  .hide{
+    margin-top: 30px;
+  }
+}
 @media screen and (max-width:800px){
   .text-large {
     font-size: 48px;
@@ -148,14 +153,14 @@ img{
 
 @media screen and (max-width:767px){
   .text-large {
-    font-size: 24px;
+    font-size: 34px;
   }
   .custom-container.custom_row {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
   .text-medium {
-    font-size: 24px;
+    font-size: 30px;
   }
   .text-sm{
     font-size: 16px;

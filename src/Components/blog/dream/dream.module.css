@@ -47,3 +47,16 @@
     opacity: 0; /* Ensure it starts invisible */
   }
   
+  @media screen and (max-width:800px){
+    .heroText h1 {
+      font-size: 2.3rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    .heroSection{
+      min-height: 80vh;
+    }
+    .heroText p {
+      font-size: 1.1rem;
+    }
+  }

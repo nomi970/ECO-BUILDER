@@ -79,3 +79,11 @@
     transform: translateY(-3px);
   }
   
+
+  @media screen and (max-width:800px){
+    .heading {
+      font-size: 26px;
+      font-weight: 500;
+     padding: 10px 0px;
+    }
+  }
