@@ -27,7 +27,7 @@ export const BlogDetail = () => {
                 <span className={style.breadcrumb_separator}>&gt;</span>
                 <Link to="/blog" className={style.breadcrumb_link}>Service</Link>
                 <span className={style.breadcrumb_separator}>&gt;</span>
-                <span>{isActive.title}</span>
+                <span className={style.breadcrumb_title}>{isActive.title}</span>
               </p>
             </nav>
             <h1 className={style.hero_title_stl}>{isActive.title}</h1>
@@ -67,7 +67,7 @@ export const BlogDetail = () => {
       </div>
       <div className={style.building_services_main}>
   {/* Personalized Design */}
-  <div style={{ display: 'flex', marginBottom: '40px', gap: '20px'  }}>
+  <div className={style.flx__war_500} style={{ display: 'flex', marginBottom: '40px', gap: '20px'  }}>
     <div style={{ width: '120px', marginRight: '20px' }}>
       <img src='../../../images/Personalized_Design.png'></img>
     </div>
@@ -78,7 +78,7 @@ export const BlogDetail = () => {
   </div>
 
   {/* Quality Craftsmanship */}
-  <div style={{ display: 'flex', marginBottom: '40px', gap: '20px' }}>
+  <div className={style.flx__war_500} style={{ display: 'flex', marginBottom: '40px', gap: '20px' }}>
     <div style={{ width: '100px', marginRight: '20px' }}>
     <img src='../../../images/Quality_Craftsmanship.png'></img>
     </div>
@@ -90,7 +90,7 @@ export const BlogDetail = () => {
   </div>
 
   {/* Innovative Solutions */}
-  <div style={{ display: 'flex', gap: '20px' , marginBottom: '40px',  }}>
+  <div className={style.flx__war_500} style={{ display: 'flex', gap: '20px' , marginBottom: '40px',  }}>
     <div style={{ width: '90px', marginRight: '20px' }}>
     <img src='../../../images/Innovative_Solutions.png'></img>
     </div>
@@ -101,7 +101,7 @@ export const BlogDetail = () => {
   </div>
 
     {/* Innovative Solutions */}
-    <div style={{ display: 'flex', gap: '20px' }}>
+    <div className={style.flx__war_500} style={{ display: 'flex', gap: '20px' }}>
     <div style={{ width: '90px', marginRight: '20px' }}>
     {/* <img src='../../../images/roff-light.png'></img> */}
     </div>

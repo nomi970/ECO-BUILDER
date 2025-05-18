@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // ✅ Step 1
 import style from "./explore.module.css"; // Import the CSS Module
 
 const Explore = () => {
+  const navigate = useNavigate(); // ✅ Step 2
+
+  const handleClick = () => {
+    navigate("/contact-us"); // ✅ Step 3: Navigate to contact-us page
+  };
+
   return (
     <section className={style.projectSection}>
       {/* Background Video */}
@@ -21,7 +28,9 @@ const Explore = () => {
           Whether you’re a potential client seeking our expertise, a supplier looking to collaborate,
           or a community organization interested in partnership opportunities, we’re eager to hear from you.
         </p>
-        <button className={style.ctaButton}>Get in Touch</button>
+        <button className={style.ctaButton} onClick={handleClick}>
+          Get in Touch
+        </button>
       </div>
     </section>
   );

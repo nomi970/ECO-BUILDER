@@ -346,3 +346,56 @@
     border-radius: 0px 16px 16px 0px;
     
   }
+    @media only screen and (max-width: 550px) {
+    .hero_title_stl{
+      font-size: 24px;
+      padding: 15px 0px;
+      font-weight: 600;
+    }
+    .hero_title_desc{
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .breadcrumb_link {
+      font-size: 14px;
+      text-decoration: none; 
+      font-weight: 500;
+    }
+      .service1_sec2_title{
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 30px;
+      }
+          .sectionContainer {
+      padding: 40px 0px;
+    }
+     ul{
+      padding-left: 1rem !important;
+     }
+       .missionWrapper {
+        margin: 0px 0px;
+      }
+      .service1_sec2_desc{
+        padding-top: 0px;
+      }
+      .flx__war_500{
+        flex-wrap: wrap;
+      }
+      .flx__war_500 img{
+        width: 45px;
+      }
+      .building_services_title{
+        font-size: 22px;
+      }
+      .breadcrumb_title{
+        font-size: 14px !important;
+      }
+      .breadcrumb_separator{
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .building_services_desc{
+        font-size: 16px;
+      }
+    }

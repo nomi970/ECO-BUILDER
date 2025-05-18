@@ -29,38 +29,38 @@ export const Home = () => {
     },
   ]
   const data2 = [
-    {
+    {id: 1,
         img:"https://connectecobuilders.com/wp-content/uploads/2024/03/2.webp",
         title:"New Build",
         desc:"Specializing in new construction, we tailor each project to meet your specific needs, ensuring a seamless build from groundbreaking to final handover",
         icon: "https://cdn-icons-png.flaticon.com/128/16120/16120617.png",
         link: "/new-build"
     },
-    {
+    {id: 2,
         img:"https://connectecobuilders.com/wp-content/uploads/2024/03/3.webp",
         title:"Home Extensions",
         desc:"Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
         icon: "https://cdn-icons-png.flaticon.com/128/10726/10726374.png" 
     },
-    {
+    {id: 3,
         img:"https://connectecobuilders.com/wp-content/uploads/2024/03/11.webp",
         title:"Loft or Basement Conversions",
         desc:"Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
         icon: "https://cdn-icons-png.flaticon.com/128/8994/8994135.png" 
     },
-    {
+    {id: 4,
       img:"https://lh3.googleusercontent.com/pWCnBEudJsA3ZBTh1QO5lwWi-mnnxf77r0rLxY6EGwie3FOkpmx41HEL-Ixu1nRSBp6XAgyXfPizTYD0O8rgk07-YWV5-XgnHIkhy3CEO9xECCJ3h2cWDOT4Oha1bK8=w599-nu-rw-e365",
       title:"Design and Build",
       desc:"Crafting your dream home from concept to completion, our custom home building services ensure a personalized living space that reflects your unique style and needs.",
       icon: "https://cdn-icons-png.freepik.com/256/2942/2942452.png?ga=GA1.1.1560891219.1722257603&semt=ais_hybrid" 
   },
-  {
+  { id: 5,
     img:"https://lh3.googleusercontent.com/7Tx2pNcxDxH4Nast8oYxvUwA1kLD6KszJ7zgV-ZvCvErIHH8nty5bYdc-bd3H1U51C0UDdkGQWKQZYuqToDqS_y5DEz-Hlpgk_biPbFK2o8deE4omgi1tYVdzAoUvw=w800-nu-rw-e365",
     title:"Commercial Construction",
     desc:"For commercial spaces, we provide tailored construction solutions to meet your business needs, ensuring functionality and aesthetic appeal.",
     icon: "https://cdn-icons-png.flaticon.com/128/12618/12618649.png" 
 },
-{
+{id: 6,
   img:"https://lh3.googleusercontent.com/KJwVsWv78Pxpl53AiZ7hMexs8GPohsRqHnuZM4Hrewa9WMkwkJtkJURWED4mNEzipY4GlRRqizVfLKVZ0RSrk-m5wAOrF4ulCFbjUXjzopKeqRyHxmOx4BgoX4mc=w599-nu-rw-e365",
   title:"Renovations & Remodeling",
   desc:"Transform your space with our renovation and remodeling expertise, bringing fresh life and functionality to your home or business.",

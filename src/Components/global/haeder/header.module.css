@@ -31,6 +31,8 @@
 }
 .nav_listing a{
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
 }
 .nav__stl {
     position: fixed;
@@ -39,7 +41,9 @@
     z-index: 1000;
     transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
 }
-
+.nav_logo{
+    width: 160px;
+}
 /* Background turns white with blur effect on scroll */
 .scrolled {
     background-color: rgba(255, 255, 255, 0.452); /* Semi-transparent white */

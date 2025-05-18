@@ -4,11 +4,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import style from './textPlag.module.css';
 import { Link } from "react-router-dom";
+import data from "../../data/data.json";
 
 
 
 export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
-   
+   const handleclick = (id) => {
+        const selectedData = data2.find(item => item.id === id);
+        if (selectedData) {
+            const title = selectedData.title?.replace(/\s+/g, '-').toLowerCase();
+            window.location.href = `/service/${id}`;
+            console.log(selectedData);
+        }
+    }
   return (
     <>
         <section className={`${style.plag_sec} ${styling && style.addClass}`}>
@@ -20,7 +28,7 @@ export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
 
                 <Row className={`${style.plag_row12} ${styling2 && style.plag_row2}`}>
                     {
-                        data2.map(({img, title, desc, icon, link}, i)=>{
+                        data2.map(({img, title, desc, icon, link, id}, i)=>{
                             return(
                                 <Col className={style.cardz}>
                                     {/* Background Image Container */}
@@ -34,9 +42,10 @@ export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
                                         <h6>{title}</h6> {/* Dynamic Title */}
                                         <p>{desc}</p> {/* Dynamic Description */}
                                         <p>
-                                            <Link to={link} className={style.link_more}>
+                                            {/* <Link to={`/service/${id}?title=${title}`} className={style.link_more}>
                                                 Learn More
-                                            </Link>
+                                            </Link> */}
+                                            <button  className={style.link_more} onClick={()=>handleclick(id)} type='button'>Learn More</button>
                                         </p>
                                     </div>
                                 </Col>
