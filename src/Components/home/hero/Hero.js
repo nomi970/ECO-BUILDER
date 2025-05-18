@@ -23,7 +23,10 @@ export const Hero = () => {
             <p className={`${style.text_blr_white}`}>
             YOUR SPACE OUR EXPERTISE
             </p>
-            <Link to="#" className={`${style.banner_btn}`}>Get Free Quote</Link>
+            <Link to="/contact-us" className={`${style.banner_btn}`}>
+  Get Free Quote
+</Link>
+
         </div>
     </div>
 
