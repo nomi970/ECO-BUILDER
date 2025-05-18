@@ -44,7 +44,7 @@ export const EasySteps = () => {
                                                 <h2>{title}</h2>
                                                 <p>{desc}</p>
                                                 <div className={style.steps_btn}>
-                                                <Link to="#" className={`${style.readmore}`}>Read More</Link>
+                                                <Link to="/about" className={`${style.readmore}`}>Read More</Link>
                                                 </div>
                                             </Col>
                                         </Row>
