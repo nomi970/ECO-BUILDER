@@ -237,6 +237,13 @@
     .recent_pro_detail h3{
         font-size: 30px;
     }
+    .projects_banner_image{
+        height: 300px;
+    }
+    .blog_row img{
+        height: 250px;
+        padding-bottom: 20px;
+    }
 }
 @media screen and (max-width:992px){
 .content_row {
