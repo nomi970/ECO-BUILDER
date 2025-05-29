@@ -36,9 +36,10 @@ export const Footer = () => {
                     </Col>
                     <Col className='p-0 address_info'>
                         <h5>Head Office</h5>
-                        <p>1234 Elm Street,<br/>Springfield, IL 62701</p>
-                        <p className='d__blk pt-2'>Email: <a className={style.address_info_link} href="mailto:info@houseline.com">info@houseline.com</a></p>
-                        <p className='pt-2'>Phone: <a className={style.address_info_link} href="tel:(123) 456-7880">(123) 456-7880</a></p>
+                        <p>268 Bath Road Slough SL1 4DX<br/></p>
+                        <p className='d__blk pt-2'>Email: <a className={style.address_info_link} href="mailto:info@connectecobuilders.com">info@connectecobuilders.com</a></p>
+                        <p className='pt-2'>Phone: <a className={style.address_info_link} href="tel:07407 556158">07407 556158</a></p>
+                        <a className={style.address_info_link} href="tel:01753 376515">01753 376515</a>
                     </Col>
                    
                 </Row>
@@ -54,7 +55,7 @@ export const Footer = () => {
                                 <li><Link to="#"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png" alt="LinkedIn" /></Link></li>
                             </ul>
                             <div className={style.footer_bottom}>
-                                <p>&copy; 2024. All rights reserved.</p>
+                                <p>&copy; 2025. All rights reserved.</p>
                             </div> 
                         </div>
             </div>
