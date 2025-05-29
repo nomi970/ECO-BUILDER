@@ -118,6 +118,7 @@ export const Header = () => {
                   <Link to="/" className={`${location.pathname === "/" ? "color-yellow" : "color-dark"}`}>Home</Link>
                   <Link to="/about" className={`${location.pathname === "/about" ? "color-yellow" : "color-dark"}`}>About</Link>
                   <Link to="/service" className={`${location.pathname === "/service" ? "color-yellow" : "color-dark"}`}>Services</Link>
+                  <Link to="/projects" className={`${location.pathname === "/projects" ? "color-yellow" : "color-dark"}`}>Projects</Link>
                   <Link to="/contact-us" className={`${location.pathname === "/contact-us" ? "color-yellow" : "color-dark"}`}>Contact Us</Link>
                 
                 </Nav>
@@ -133,6 +134,7 @@ export const Header = () => {
                   <Link to="/" className={`${location.pathname === "/" ? "color-yellow" : "color-dark"}`}>Home</Link>
                   <Link to="/about" className={`${location.pathname === "/about" ? "color-yellow" : "color-dark"}`}>About</Link>
                   <Link to="/service" className={`${location.pathname === "/service" ? "color-yellow" : "color-dark"}`}>Services</Link>
+                  <Link to="/projects" className={`${location.pathname === "/projects" ? "color-yellow" : "color-dark"}`}>Projects</Link>
                   <Link to="/contact-us" className={`${location.pathname === "/contact-us" ? "color-yellow" : "color-dark"}`}>Contact Us</Link>
                 </Nav>
                 <div className="d-flex">

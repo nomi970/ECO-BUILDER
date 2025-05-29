@@ -10,7 +10,10 @@ import { Layout } from "./Components/layout/Layout";
 import { ContactUs } from "./Pages/contact-us/ContactUs";
 import { Blog } from "./Pages/blog/Blog";
 import { BlogDetail } from "./Pages/blog/BlogDetail";
+import  ProjectDetail  from "./Pages/projects/ProjectDetail";
 import { About } from "./Pages/about/About";
+import Projects from "./Pages/projects/projects";
+
 
 
 export const App = () => {
@@ -24,7 +27,9 @@ export const App = () => {
             <Route path="/about" element={<About />} exact />
             <Route path="/contact-us" element={<ContactUs />} exact />
             <Route path="/service" element={<Blog />} exact />
+            <Route path="/projects" element={<Projects />} exact />
             <Route path="/service/:id" element={<BlogDetail />} exact />
+            <Route path="/projects/:id" element={<ProjectDetail />} exact />
           </Routes>
         </Layout>
       </Router>
