@@ -249,7 +249,11 @@ const Slider = () => {
           {isGridPopupOpen && (
             <div className={style.modalOverlay}>
               <div className={style.modalContent}>
-                <button className={style.closeButton} onClick={closeGridPopup}>✖</button>
+              <div className={style.gallry_wrapper}>
+                <h2>Gallery</h2>
+                 <button className={style.closeButton} onClick={closeGridPopup}>✖</button>
+              </div>
+               
                 <div className={style.imageGrid}>
                   {slides.map((slide, idx) => (
                     <img
