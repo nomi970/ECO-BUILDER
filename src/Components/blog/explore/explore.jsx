@@ -13,7 +13,7 @@ const Explore = () => {
     <section className={style.projectSection}>
       {/* Background Video */}
       <video autoPlay loop muted className={style.backgroundVideo}>
-        <source src="./images/exp_bg.mp4" type="video/mp4" />
+        <source src="/images/exp_bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

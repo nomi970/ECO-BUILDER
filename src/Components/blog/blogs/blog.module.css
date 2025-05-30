@@ -68,13 +68,13 @@
 }
 @media screen and (max-width:800px){
     .blog_row{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto !important;
     }
 }
 
 @media screen and (max-width:767px){
     .blog_row{
-        grid-template-columns: auto;
+        grid-template-columns: auto !important;
     }
     .blog_col h2{
         font-size: 18px;

@@ -31,7 +31,6 @@
 .banner_sec {
     position: relative;
     background-image: url(https://img.freepik.com/free-photo/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-602.jpg?t=st=1743172114~exp=1743175714~hmac=8421ac2faefeb9e1847c80be36edb6de9699ade976187a4eb3938f7fda83b786&w=996);
-   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -41,4 +40,22 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    z-index: 1;
+    color: white; /* Optional, for text visibility */
+}
+
+.banner_sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.550); /* Light black */
+    z-index: 0;
+}
+
+.banner_sec > * {
+    position: relative;
+    z-index: 1; /* Content stays above the overlay */
 }
