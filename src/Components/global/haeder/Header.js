@@ -30,10 +30,10 @@
 //                 <Nav
 //                   className={`${style.nav_listing} m-auto my-2 my-lg-0`}
 //                 >
-//                   <Link to="/" className={`${location.pathname === "/" ? "color-green" : "color-dark"}`}>Home</Link>
-//                   <Link to="#" className='color-dark'>About</Link>
-//                   <Link to="/blog" className={`${location.pathname === "/blog" ? "color-green" : "color-dark"}`}>Blog</Link>
-//                   <Link to="#" className='color-dark'>Faq's</Link>
+//                   <Link to="/" className={`${location.pathname === "/" ? "color-green" : "color-dark_white"}`}>Home</Link>
+//                   <Link to="#" className='color-dark_white'>About</Link>
+//                   <Link to="/blog" className={`${location.pathname === "/blog" ? "color-green" : "color-dark_white"}`}>Blog</Link>
+//                   <Link to="#" className='color-dark_white'>Faq's</Link>
 
 //                 </Nav>
 //                 <div className="d-flex">
@@ -47,10 +47,10 @@
 //                 <Nav
 //                   className={`${style.nav_listing} m-auto my-2 my-lg-0`}
 //                 >
-//                   <Link to="/" className={`${location.pathname === "/" ? "color-green" : "color-dark"}`}>Home</Link>
-//                   <Link to="#" className='color-dark'>About</Link>
-//                   <Link to="/blog" className={`${location.pathname === "/blog" ? "color-green" : "color-dark"}`}>Blog</Link>
-//                   <Link to="#" className='color-dark'>Faq's</Link>
+//                   <Link to="/" className={`${location.pathname === "/" ? "color-green" : "color-dark_white"}`}>Home</Link>
+//                   <Link to="#" className='color-dark_white'>About</Link>
+//                   <Link to="/blog" className={`${location.pathname === "/blog" ? "color-green" : "color-dark_white"}`}>Blog</Link>
+//                   <Link to="#" className='color-dark_white'>Faq's</Link>
 
 //                 </Nav>
 //                 <div className="d-flex">
@@ -115,11 +115,11 @@ export const Header = () => {
             width && width < 767 ?
               <div className={`${openNav ? "hide" : "show"}`}>
                 <Nav className={`${style.nav_listing} m-auto my-2 my-lg-0`}>
-                  <Link to="/" className={`${location.pathname === "/" ? "color-yellow" : "color-dark"}`}>Home</Link>
-                  <Link to="/about" className={`${location.pathname === "/about" ? "color-yellow" : "color-dark"}`}>About</Link>
-                  <Link to="/service" className={`${location.pathname === "/service" ? "color-yellow" : "color-dark"}`}>Services</Link>
-                  <Link to="/projects" className={`${location.pathname === "/projects" ? "color-yellow" : "color-dark"}`}>Projects</Link>
-                  <Link to="/contact-us" className={`${location.pathname === "/contact-us" ? "color-yellow" : "color-dark"}`}>Contact Us</Link>
+                  <Link to="/" className={`${location.pathname === "/" ? "color-yellow" : "color-dark_white"}`}>Home</Link>
+                  <Link to="/about" className={`${location.pathname === "/about" ? "color-yellow" : "color-dark_white"}`}>About</Link>
+                  <Link to="/service" className={`${location.pathname === "/service" ? "color-yellow" : "color-dark_white"}`}>Services</Link>
+                  <Link to="/projects" className={`${location.pathname === "/projects" ? "color-yellow" : "color-dark_white"}`}>Projects</Link>
+                  <Link to="/contact-us" className={`${location.pathname === "/contact-us" ? "color-yellow" : "color-dark_white"}`}>Contact Us</Link>
                 
                 </Nav>
                 <div className="d-flex">
@@ -131,11 +131,11 @@ export const Header = () => {
               :
               <div className='desktop-nav'>
                 <Nav className={`${style.nav_listing} m-auto my-2 my-lg-0`}>
-                  <Link to="/" className={`${location.pathname === "/" ? "color-yellow" : "color-dark"}`}>Home</Link>
-                  <Link to="/about" className={`${location.pathname === "/about" ? "color-yellow" : "color-dark"}`}>About</Link>
-                  <Link to="/service" className={`${location.pathname === "/service" ? "color-yellow" : "color-dark"}`}>Services</Link>
-                  <Link to="/projects" className={`${location.pathname === "/projects" ? "color-yellow" : "color-dark"}`}>Projects</Link>
-                  <Link to="/contact-us" className={`${location.pathname === "/contact-us" ? "color-yellow" : "color-dark"}`}>Contact Us</Link>
+                  <Link to="/" className={`${location.pathname === "/" ? "color-yellow" : "color-dark_white"}`}>Home</Link>
+                  <Link to="/about" className={`${location.pathname === "/about" ? "color-yellow" : "color-dark_white"}`}>About</Link>
+                  <Link to="/service" className={`${location.pathname === "/service" ? "color-yellow" : "color-dark_white"}`}>Services</Link>
+                  <Link to="/projects" className={`${location.pathname === "/projects" ? "color-yellow" : "color-dark_white"}`}>Projects</Link>
+                  <Link to="/contact-us" className={`${location.pathname === "/contact-us" ? "color-yellow" : "color-dark_white"}`}>Contact Us</Link>
                 </Nav>
                 <div className="d-flex">
                   {/* <Button variant="light" className={`${style.nav_btn} me-2`}>Login</Button>

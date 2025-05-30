@@ -3,6 +3,7 @@
 }
 :root{
   --color-dark : #200E19;
+  --color-dark_white : white;
   --color-green : #2EA399;
   --color-yellow : #feb900;
   --color-bg : #1E1E1E;
@@ -36,6 +37,9 @@ img{
 /* colors */
 .color-dark{
   color:var(--color-dark) !important;
+}
+.color-dark_white{
+  color: var(--color-dark_white);
 }
 .color-green{
   color: var(--color-green );
@@ -122,6 +126,9 @@ img{
   .hide{
     margin-top: 30px;
   }
+  .color-dark_white{
+  color: var(--color-dark);
+}
 }
 @media screen and (max-width:800px){
   .text-large {
