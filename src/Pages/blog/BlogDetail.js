@@ -25,7 +25,7 @@ export const BlogDetail = () => {
               <p>
                 <Link to="/" className={style.breadcrumb_link}>Home</Link>
                 <span className={style.breadcrumb_separator}>&gt;</span>
-                <Link to="/blog" className={style.breadcrumb_link}>Service</Link>
+                <Link to="/service" className={style.breadcrumb_link}>Service</Link>
                 <span className={style.breadcrumb_separator}>&gt;</span>
                 <span className={style.breadcrumb_title}>{isActive.title}</span>
               </p>

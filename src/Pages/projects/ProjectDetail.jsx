@@ -6,8 +6,8 @@ import style from "./../blog/blog-detail.module.css";
 import projects from "../../Components/projects/home/projects";
 import projectsData from "../../Components/data/data.json";
 import RecentProjects from "../../Components/projects/home/RecentProjects";
-// import Explore from "../../Components/blog/explore/explore";
 import Slider from "../../Components/projects/home/slider";
+import Explore from "../../Components/blog/explore/explore";
 
 
 function ProjectDetial() {
@@ -21,6 +21,7 @@ function ProjectDetial() {
 
   return (
     <div>
+      
       <section
         key={isActive.id}
         className={style.service_detail_hero}
@@ -48,8 +49,9 @@ function ProjectDetial() {
         </div>
       </section>
       {Object.keys(isActive).length > 0 && <RecentProjects data={isActive} />}
-      {/* <Explore /> */}
+      
       <Slider />
+      <Explore />
     </div>
     
   );

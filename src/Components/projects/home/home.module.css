@@ -40,7 +40,26 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    z-index: 1;
+    color: white; /* Ensure text remains readable */
 }
+
+.banner_sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.550); /* Light black overlay */
+    z-index: 0;
+}
+
+.banner_sec > * {
+    position: relative;
+    z-index: 1; /* Keep content above the overlay */
+}
+
 .blog_col{
  display: grid;
     grid-template-columns: auto;
@@ -216,7 +235,7 @@
 }
 @media screen and (max-width:800px){
     .blog_row{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto !important;
     }
     .why_choose_wrapper{
         flex-wrap: wrap;
@@ -225,7 +244,7 @@
 
 @media screen and (max-width:767px){
     .blog_row{
-        grid-template-columns: auto;
+        grid-template-columns: auto !important;
     }
     .blog_col h2{
         font-size: 18px;
@@ -290,7 +309,7 @@
 
 
 .slider_sec{
-    padding: 100px 0px 0px 0px;
+    padding: 100px 0px 80px 0px;
     text-align: center;
 }
 .modalOverlay,
@@ -315,7 +334,7 @@
   /* overflow-y: auto; */
   max-width: 100%;
   position: relative;
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .imageGrid {

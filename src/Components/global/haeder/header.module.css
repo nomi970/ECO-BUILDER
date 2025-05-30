@@ -53,9 +53,23 @@
     /* height: 80px; */
     z-index: 1000;
 }
+.nav_listing a{
+    color: white !important;
+}
+.scrolled .nav_listing a{
+    color: black !important;
+}
 
 @media screen and (max-width:800px){
     .nav__stl {
         background-color: white;
     }
+}
+@media screen and (max-width:992px){
+.nav_listing a{
+    color:unset !important;
+}
+.scrolled .nav_listing a{
+    color: unset !important;
+}
 }
