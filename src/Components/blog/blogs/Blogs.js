@@ -34,10 +34,6 @@ export const Blogs = () => {
                         })
                     }
                 </div>
-
-                {/* <div className={style.pagination}>
-                    <Pagination count={10} variant="outlined" shape="rounded" />
-                </div> */}
             </section>
         </>
     )

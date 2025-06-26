@@ -11,10 +11,6 @@ export const Banner = () => {
                     {/* <p>Blogs</p> */}
                     <FirstHeading heading={<>Constructing Excellence, <span className='color-yellow'>Building the Future</span></>} />
                 </div>
-                {/* <div className={style.banner_search}>
-                    <img src='./images/search.png' alt='' />
-                    <input type='search' name='search' placeholder='Search for articles'/>
-                </div> */}
             </div>
 
 

@@ -12,16 +12,6 @@ export const EasySteps = () => {
             title: "About Houseline Construction",
             desc: "Housline Construction company is emerging with an elite and professional status in the South East that offers refurbishment and construction services. We translate your dreams into building elements by approaching the best ways of communication with clients. Besides best strategies and plans, we prioritize the client’s satisfaction and take pride in constructing dreams."
         },
-        // {
-        //     img: "./images/steps.png",
-        //     title: "Analyze Text",
-        //     desc: "Upon clicking the Detect AI button, the system processes the input text, applying detection techniques. The results are displayed, indicating whether the text is AI-generated."
-        // },
-        // {
-        //     img: "./images/steps.png",
-        //     title: "Enhance Human-like Quality",
-        //     desc: "Users can choose to refine the AI-generated text to sound more human-like. By clicking the 'Rewrite AI' button, the text undergoes adjustments to improve its naturalness."
-        // }
     ]
     return (
         <>
