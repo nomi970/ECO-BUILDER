@@ -234,7 +234,7 @@ const submitHandler = (e) => {
               <ul className={style.social_list}>
                 <li><Link to="https://www.facebook.com/share/196LiTLvvq/"><img src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt="Facebook" /></Link></li>
                 <li><Link to="https://connectecobuilders.com/"><img src="https://cdn3.iconfinder.com/data/icons/social-media-circle-6/1024/circle-10-256.png" alt="Website" /></Link></li>
-                <li><Link to="https://www.checkatrade.com/trades/ssjbcontractorsltd"><img src="https://www.checkatrade.com/favicon-180.png" alt="checkatrade" /></Link></li>
+                <li><Link to="https://www.checkatrade.com/trades/ssjbcontractorsltd"><img src="https://i.ibb.co/PsJWj2zW/favicon-180.png" alt="checkatrade" /></Link></li>
               </ul>
             </>
           )}
