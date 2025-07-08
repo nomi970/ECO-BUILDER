@@ -30,20 +30,20 @@ export const Home = () => {
   ]
   const data2 = [
     {id: 1,
-        img:"https://connectecobuilders.com/wp-content/uploads/2024/03/2.webp",
+        img:"https://i.ibb.co/Ld97w5YV/2.webp",
         title:"New Build",
         desc:"Specializing in new construction, we tailor each project to meet your specific needs, ensuring a seamless build from groundbreaking to final handover",
         icon: "https://cdn-icons-png.flaticon.com/128/16120/16120617.png",
         link: "/new-build"
     },
     {id: 2,
-        img:"https://connectecobuilders.com/wp-content/uploads/2024/03/3.webp",
+        img:"https://i.ibb.co/0VngV85h/3.webp",
         title:"Home Extensions",
         desc:"Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
         icon: "https://cdn-icons-png.flaticon.com/128/10726/10726374.png" 
     },
     {id: 3,
-        img:"https://connectecobuilders.com/wp-content/uploads/2024/03/11.webp",
+        img:"https://lh3.googleusercontent.com/6kOa7DjkgIlew2E8tP9Vc7CODRPnll3s6JB64hBNYTviTpxdKLPFhmMsT6EIkGGyo52MAs7ep6jtiNzXLwK3mYK5EA9FUJGwSEuxYgsI7R0zSI_5b9hD_WYj7KqnWsA=w599-nu-rw-e365",
         title:"Loft or Basement Conversions",
         desc:"Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
         icon: "https://cdn-icons-png.flaticon.com/128/8994/8994135.png" 
@@ -69,11 +69,11 @@ export const Home = () => {
   ]
   const data3 = [
     {
-        img:"https://connectecobuilders.com/wp-content/uploads/2024/03/1.webp",
+        img:"https://i.ibb.co/Ld97w5YV/2.webp",
         title:"",
         desc:"Double Story Extension and Full House Refurbishment in HOLYPORT MAIDENHEAD"
     },
-    {     img:"https://connectecobuilders.com/wp-content/uploads/2024/03/1-3.webp",
+    {     img:"https://i.ibb.co/0VngV85h/3.webp",
         title:"",
         desc:"Double Story Extension and Full House Refurbishment in READING"
     },
@@ -89,7 +89,8 @@ export const Home = () => {
   title:"",
   desc:"New build double story chalet bungalow in GERRARD CROSS"
 },
-{     img:"https://lh3.googleusercontent.com/TQM6ybANxzKjrYt1Xp07Vr5gC8ptzlEJavhpFBt04X5orNmORTbfWjbj578L4B1k8hR9R6snXvRWexXwRwbwELI4ZCUNQ7yAsz9aoJqPROIvbNMp9cA3myS7oHosVg=w599-nu-rw-e365",
+{     
+  img:"https://lh3.googleusercontent.com/TQM6ybANxzKjrYt1Xp07Vr5gC8ptzlEJavhpFBt04X5orNmORTbfWjbj578L4B1k8hR9R6snXvRWexXwRwbwELI4ZCUNQ7yAsz9aoJqPROIvbNMp9cA3myS7oHosVg=w599-nu-rw-e365",
   title:"",
   desc:"Single story Extension and Renovation in READING"
 },
