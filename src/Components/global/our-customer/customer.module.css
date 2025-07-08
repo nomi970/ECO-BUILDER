@@ -15,7 +15,7 @@
 .testimonial_col h6{
     font-size: 18px;
     color: var(--color-dark);
-    padding: 15px 0;
+    padding: 12px 0;
 }
 .customer_text{
     margin-bottom: 35px;
@@ -36,4 +36,44 @@
     .our_customer_sec{
         padding:30px 0px ;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.review_button {
+  background-color: #061f70;
+  color: white;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.review_button:hover {
+  background-color: #0b2bb0;
+}
+
+.review_stars {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.testimonial_col {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
 }

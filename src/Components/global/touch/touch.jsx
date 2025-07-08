@@ -1,69 +1,3 @@
-// import React from "react";
-// import {
-//   FaMapMarkerAlt,
-//   FaEnvelope,
-//   FaPhoneAlt,
-//   FaFacebookF,
-//   FaTwitter,
-//   FaYoutube,
-//   FaLinkedinIn,
-// } from "react-icons/fa";
-// import styles from "./touch.module.css";
-
-// const ContactSection = () => {
-//   return (
-//     <div className={styles.section}>
-//       <div className={styles.card}>
-//         <h2 className={styles.title}>Get In Touch</h2>
-//         <p className={styles.subtitle}>
-//           Let’s build your future together.
-//           <br />
-//           Contact us to start your project today.
-//         </p>
-
-//         <div className={styles.infoBlock}>
-//           <FaMapMarkerAlt className={styles.icon} />
-//           <div>
-//             <h3>Main Office</h3>
-//             <p>
-//               The White Building, 33 Kings Road,
-//               <br />
-//               Reading RG1 3AR
-//             </p>
-//           </div>
-//         </div>
-
-//         <div className={styles.infoBlock}>
-//           <FaEnvelope className={styles.icon} />
-//           <div>
-//             <h3>Email Us</h3>
-//             <p>info@houselineconstruction.co.uk</p>
-//           </div>
-//         </div>
-
-//         <div className={styles.infoBlock}>
-//           <FaPhoneAlt className={styles.icon} />
-//           <div>
-//             <h3>Call Us</h3>
-//             <p>07515 150338</p>
-//             <p>0800 3213487</p>
-//           </div>
-//         </div>
-
-//         <p className={styles.followText}>Follow Us On Social Media</p>
-//         <div className={styles.socialIcons}>
-//           <a href="#"><FaFacebookF /></a>
-//           <a href="#"><FaTwitter /></a>
-//           <a href="#"><FaYoutube /></a>
-//           <a href="#"><FaYoutube /></a>
-//           <a href="#"><FaLinkedinIn /></a>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ContactSection;
 import React from "react";
 import {
   FaMapMarkerAlt,
@@ -96,7 +30,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3>Main Office</h3>
-                <p>The White Building, 33 Kings Road,<br />Reading, RG1 3AR</p>
+                <p>268 Bath Road Slough SL1 4DX</p>
               </div>
             </div>
 
@@ -106,7 +40,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3>Email Us</h3>
-                <p>info@housellinconstruction.co.uk</p>
+                <p>info@connectecobuilders.com</p>
               </div>
             </div>
 
@@ -116,7 +50,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3>Call Us</h3>
-                <p>07515-150,338<br />0800.321 3487</p>
+                <p>07407 556158<br />01753 376515</p>
               </div>
             </div>
           </div>
@@ -124,7 +58,7 @@ const ContactSection = () => {
           <div className={styles.socialSection}>
             <p className={styles.followText}>Follow Us On Social Media</p>
             <div className={styles.socialIcons}>
-              <a href="#"><FaFacebookF /></a>
+              <a href="https://www.facebook.com/share/196LiTLvvq/"><FaFacebookF /></a>
               <a href="#"><FaTwitter /></a>
               <a href="#"><FaYoutube /></a>
               <a href="#"><FaInstagram /></a>

@@ -11,22 +11,22 @@ import ContactSection from '../../Components/global/contactSection/contactSectio
 
 export const Home = () => {
   const data = [
-    {
-      title : "109",
-      desc : "Expert Workers"
-    },
+    // {
+    //   title : "109",
+    //   desc : "Expert Workers"
+    // },
     {
       title : "485",
       desc : "Happy Clients"
     },
     {
-      title : "789",
+      title : "175",
       desc : "Completed Projects"
     },
-    {
-      title : "890",
-      desc : "Running Projects"
-    },
+    // {
+    //   title : "890",
+    //   desc : "Running Projects"
+    // },
   ]
   const data2 = [
     {id: 1,
@@ -66,21 +66,6 @@ export const Home = () => {
   desc:"Transform your space with our renovation and remodeling expertise, bringing fresh life and functionality to your home or business.",
   icon: "https://cdn-icons-png.flaticon.com/128/2942/2942551.png" 
 },
-//     {
-//       img:"./images/time.png",
-//       title:"Design and Build",
-//       desc:"Crafting your dream home from concept to completion, our custom home building services ensure a personalized living space that reflects your unique style and needs."
-//   },
-//   {
-//     img:"./images/time.png",
-//     title:"Commercial Construction",
-//     desc:"For commercial spaces, we provide tailored construction solutions to meet your business needs, ensuring functionality and aesthetic appeal."
-// },
-// {
-//   img:"./images/time.png",
-//   title:"Renovations & Remodeling",
-//   desc:"Transform your space with our renovation and remodeling expertise, bringing fresh life and functionality to your home or business."
-// },
   ]
   const data3 = [
     {

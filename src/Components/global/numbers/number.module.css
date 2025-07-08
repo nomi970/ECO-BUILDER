@@ -1,13 +1,23 @@
 .number_sec{
     margin: 110px 0 100px;
 }
-.number_row{
+.number_row {
     margin-top: 30px !important;
     justify-content: center;
     display: grid !important;
     gap: 178px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    text-align: center; /* Default if needed */
 }
+
+.number_row > :nth-child(odd) {
+    text-align: right;
+}
+
+.number_row > :nth-child(even) {
+    text-align: left;
+}
+
 .number_row h6{
     color: var(--color-dark);
     font-size: 60px;

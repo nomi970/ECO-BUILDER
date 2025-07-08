@@ -9,22 +9,22 @@ export const ContactUs = () => {
     document.title = "Contact Us"
   },[])
   const data = [
-    {
-      title : "109",
-      desc : "Expert Workers"
-    },
+    // {
+    //   title : "109",
+    //   desc : "Expert Workers"
+    // },
     {
       title : "485",
       desc : "Happy Clients"
     },
     {
-      title : "789",
+      title : "175",
       desc : "Completed Projects"
     },
-    {
-      title : "890",
-      desc : "Running Projects"
-    },
+    // {
+    //   title : "890",
+    //   desc : "Running Projects"
+    // },
   ]
 
   return (
