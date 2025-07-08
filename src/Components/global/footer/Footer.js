@@ -13,12 +13,12 @@ export const Footer = () => {
                     <Col className={`${style.footer_logo_col} p-0`}>
                         <div className={style.newsletter_box}>
                         <Link to="/">
-                            {/* <img 
+                            <img 
                                 src="https://connectecobuilders.com/wp-content/uploads/2024/02/cropped-34-01-3-300x117-CEB-BANN-1-1-106x35.png" 
                                 alt="Houseline Logo" 
                                 className={style.footer_logo} 
-                            /> */}
-                            <p>LOGO</p>
+                            />
+                            {/* <p>LOGO</p> */}
                         </Link>                            <p>Drop your email to subscribe to our NEWSletter</p>
                             <input type="email" placeholder="Your email" className={style.email_input} />
                             <button className={style.subscribe_btn}>Subscribe</button>
