@@ -30,7 +30,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3>Main Office</h3>
-                <p>The White Building, 33 Kings Road,<br />Reading, RG1 3AR</p>
+                <p>268 Bath Road Slough SL1 4DX</p>
               </div>
             </div>
 
@@ -40,7 +40,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3>Email Us</h3>
-                <p>info@housellinconstruction.co.uk</p>
+                <p>info@connectecobuilders.com</p>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <h3>Call Us</h3>
-                <p>07515-150,338<br />0800.321 3487</p>
+                <p>07407 556158<br />01753 376515</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ const ContactSection = () => {
           <div className={styles.socialSection}>
             <p className={styles.followText}>Follow Us On Social Media</p>
             <div className={styles.socialIcons}>
-              <a href="#"><FaFacebookF /></a>
+              <a href="https://www.facebook.com/share/196LiTLvvq/"><FaFacebookF /></a>
               <a href="#"><FaTwitter /></a>
               <a href="#"><FaYoutube /></a>
               <a href="#"><FaInstagram /></a>
