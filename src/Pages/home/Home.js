@@ -23,10 +23,10 @@ export const Home = () => {
       title : "175",
       desc : "Completed Projects"
     },
-    {
-      title : "890",
-      desc : "Running Projects"
-    },
+    // {
+    //   title : "890",
+    //   desc : "Running Projects"
+    // },
   ]
   const data2 = [
     {id: 1,

@@ -21,10 +21,10 @@ export const ContactUs = () => {
       title : "175",
       desc : "Completed Projects"
     },
-    {
-      title : "890",
-      desc : "Running Projects"
-    },
+    // {
+    //   title : "890",
+    //   desc : "Running Projects"
+    // },
   ]
 
   return (
