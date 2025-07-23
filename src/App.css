@@ -140,7 +140,7 @@ img{
   .mySwiper{
     padding-bottom: 84px !important;
   }
-  .mySwiper .swiper-button-next{
+  /* .mySwiper .swiper-button-next{
     bottom: 17px;
     position: absolute;
     top: unset;
@@ -155,7 +155,7 @@ img{
     left: -64px;
     right: 0;
     margin: auto;
-  }
+  } */
 }
 
 @media screen and (max-width:767px){
@@ -195,4 +195,9 @@ img{
   text-decoration: none;
   margin-top: 16px;
   color: white;
+}
+@media screen and (max-width:500px){
+  .mySwiper{
+    padding-bottom: 0px !important;
+  }
 }
