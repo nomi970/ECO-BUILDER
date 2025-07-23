@@ -14,14 +14,19 @@ export const OurCustomer = () => {
   const slide = [
     {
       // img: "https://themewagon.github.io/builerz/img/testimonial-3.jpg",
+      para: "We worked with Jafer and his team from Connect Eco Builders (SSJB Contractors Ltd) for a large demolition and complete new rebuild of a 3-storey detached house. From beginning to end, over a year in duration, it has been a real pleasure to work with him, his company and his team. The quality of work, as has been mentioned independently by surveyors and building regulations, has been excellent. Given the size of the project and that we have encountered negligible surprises is testament to the attention to detail and forwardness that the company offers as part of their detailed quote.",
+      clientname: "Job location: WD3",
+      des: " Demolition and Construction of 3-Storey Detached Building"
+    },
+    {
       para: "Overall I’m so impressed with their work. From start to end they were so professional.They kept us informed if any work was delayed. In consideration my family suffer from asthma they made sure they leave my home clean at the end of each day. I would recommend them to anyone. I paid the amount which we agreed at the start of work.They were no hidden costs. I have a neighbour who is also a builder. My neighbour was impressed with their roof work and overall quality of work and finish quality.",
       clientname: "Job location: WD24",
       des: " Loft conversion"
     },
     {
-      para: "The team delivered exceptional quality on our commercial project. From planning to execution, everything was flawless!",
-      clientname: "Job location: HA3",
-      des: " Real Estate Developer"
+      para: "Connect Eco Builders recently completed a double storey extension, loft conversion, and full house refurbishment for us — and we’re extremely pleased with the results. The team was professional, approachable, and delivered high-quality workmanship throughout. They communicated clearly, met deadlines, and handled challenges efficiently. The finish is excellent, and the transformation has exceeded our expectations. We highly recommend them for any major building work.",
+      clientname: "Job location: UB6",
+      des: " Extinsion"
     },
     {
       para: "Excellent service - we needed some last minute touch ups to a property and Jafer and the team delivered on time, especially since time was of the essence.Super friendly and respectful too- also, very accommodating with last minute requests that were crucial for us. They kept the property clean too following any works,which was highly appreciated.Would definitely recommend and use again.Thank you Jafer and the team for all your hard work!",

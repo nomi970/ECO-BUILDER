@@ -54,10 +54,13 @@ export const Footer = () => {
                 </div> */}
                 <div className={style.footer_social}>
                             <ul className={style.social_list}>
-                                <li><Link to="#"><img src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt="Facebook" /></Link></li>
+                                {/* <li><Link to="#"><img src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt="Facebook" /></Link></li>
                                 <li><Link to="#"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" alt="Twitter" /></Link></li>
                                 <li><Link to="#"><img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" alt="Instagram" /></Link></li>
-                                <li><Link to="#"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png" alt="LinkedIn" /></Link></li>
+                                <li><Link to="#"><img src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png" alt="LinkedIn" /></Link></li> */}
+                                <li><Link to="https://www.facebook.com/share/196LiTLvvq/"><img src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt="Facebook" /></Link></li>
+                                                <li><Link to="https://connectecobuilders.com/"><img src="https://cdn3.iconfinder.com/data/icons/social-media-circle-6/1024/circle-10-256.png" alt="Website" /></Link></li>
+                                                <li><Link to="https://www.checkatrade.com/trades/ssjbcontractorsltd"><img src="https://i.ibb.co/PsJWj2zW/favicon-180.png" alt="checkatrade" /></Link></li>
                             </ul>
                             <div className={style.footer_bottom}>
                                 <p>&copy; 2025. All rights reserved.</p>

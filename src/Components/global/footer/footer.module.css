@@ -236,4 +236,7 @@ h5 {
         flex-wrap: wrap !important;
         justify-content: center;
     }
+    .footer_social{
+        padding-bottom: 30px;
+    }
 }
