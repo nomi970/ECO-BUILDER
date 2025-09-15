@@ -102,7 +102,12 @@ const submitHandler = (e) => {
 
   return (
     <div className={style.contactContainer}>
-      <h2 className={style.contactTitle}>Contact Us</h2>
+      <h2 className={style.contactTitle}>Let’s Build Something Great Together</h2>
+      <p style={{fontSize: "24px" , fontWeight: "500"}}>Your project deserves the best and we’re here to deliver it.</p>
+      <p style={{fontSize: "18px  " , fontWeight: "500", maxWidth: "600px", textAlign: "center" , padding: "16px 0px"}}>Whether you’re planning a new build, extension, refurbishment or renovation,
+our team is ready to guide you every step of the way. Simply fill out the form
+below, and we’ll get back to you with a free consultation and quote.
+</p>
       <div className={style.contactContent}>
         <form className={style.contactForm} onSubmit={submitHandler} ref={formRef}>
           <div className="position-relative">

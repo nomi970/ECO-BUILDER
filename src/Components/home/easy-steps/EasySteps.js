@@ -10,7 +10,8 @@ export const EasySteps = () => {
         {
             img: "https://houselineconstruction.co.uk/wp-content/uploads/2024/05/new-build-3.jpg",
             title: "About Houseline Construction",
-            desc: "Housline Construction company is emerging with an elite and professional status in the South East that offers refurbishment and construction services. We translate your dreams into building elements by approaching the best ways of communication with clients. Besides best strategies and plans, we prioritize the client’s satisfaction and take pride in constructing dreams."
+            desc: "We take pride in being one of the leading construction firms across West London, Thames Valley, Hertfordshire and Buckinghamshire We specialise in residential and commercial projects, combining skilled craftsmanship, modern design and eco-friendly practices to create spaces that last a lifetime. Our mission is simple: to provide quality, transparency and innovation at every step from planning and design to construction and final delivery.Whether it’s a new build, extension or refurbishment, we are committed to turning your vision into reality.",
+            
         },
     ]
     return (
@@ -18,7 +19,7 @@ export const EasySteps = () => {
             <section>
                 <div className='custom-container custom_row'>
                     <SecondHeading heading={<>WHO<span className='color-yellow'> WE ARE</span> </>} />
-                    <p className='text-sm color-grey text-center pt-3'>About Houseline Construction</p>
+                    <p className='text-sm color-grey text-center pt-3'>Trusted builders delivering excellence in every project</p>
 
                     {
                         data.map(({ img, title, desc }, i) => {
@@ -34,7 +35,7 @@ export const EasySteps = () => {
                                                 <h2>{title}</h2>
                                                 <p>{desc}</p>
                                                 <div className={style.steps_btn}>
-                                                <Link to="/about" className={`${style.readmore}`}>Read More</Link>
+                                                    <Link to="/about" className={`${style.readmore}`}>Read More</Link>
                                                 </div>
                                             </Col>
                                         </Row>
