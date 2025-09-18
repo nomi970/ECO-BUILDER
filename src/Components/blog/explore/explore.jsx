@@ -23,10 +23,15 @@ const Explore = () => {
       {/* Content Container */}
       <div className={style.contentContainer}>
         <h3 className={style.subheading}>Start Building Your Vision Today</h3>
-        <h2 className={style.heading}>Explore Tailored Solutions for Your Project Needs</h2>
+        <h2 className={style.heading}>Your ideas deserve to become reality.</h2>
         <p className={style.description}>
-          Whether you’re a potential client seeking our expertise, a supplier looking to collaborate,
-          or a community organization interested in partnership opportunities, we’re eager to hear from you.
+          Whether it’s a new home, an extension or loft conversion, or a complete
+          refurbishment, our team is ready to guide you from the first sketch to the final
+          build. We combine quality craftsmanship, modern design, and eco-friendly
+          practices to deliver results that last.
+        </p>
+        <p className={style.description}>We also welcome partnerships with suppliers, architects, and community
+          organisations who share the same commitment to excellence and innovation.
         </p>
         <button className={style.ctaButton} onClick={handleClick}>
           Get in Touch

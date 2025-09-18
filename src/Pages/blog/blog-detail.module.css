@@ -168,7 +168,7 @@
     position: relative;
     width: 260px;
     height: 360px;
-    margin-right: 400px;
+    margin-right: 270px;
   }
   
   .box {
@@ -197,7 +197,7 @@
   }
   
   .textContainer {
-    max-width: 600px;
+    max-width: 700px;
     font-size: 14px;
     line-height: 1.8;
     color: #0f4a63;

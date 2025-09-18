@@ -44,7 +44,7 @@ function ProjectDetial() {
               </p>
             </nav>
             <h1 className={style.hero_title_stl}>{isActive.title}</h1>
-            <p className={style.hero_title_desc}>{isActive.service1_desc}</p>
+            <p className={style.hero_title_desc}>{isActive.description}</p>
           </div>
         </div>
       </section>

@@ -43,6 +43,7 @@ function RecentProjects({ data }) {
           
 
           <h3>{data.recent_projects_title}</h3>
+          <p>{data.recent_projects_title__desci}</p>
           <ul>
             {data.projects.map((proj, index) => (
               <li key={index}>
