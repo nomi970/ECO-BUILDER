@@ -21,6 +21,7 @@ export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
     <>
         <section className={`${style.plag_sec} ${styling && style.addClass}`}>
             <div className='custom-container custom_row'>
+           
                 <div className={styling && style.Plag_text}>
                     <SecondHeading heading={heading} />
                     <p className='text-sm color-grey fw-normal text-center'>{para}</p>

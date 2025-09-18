@@ -16,12 +16,12 @@ export const Home = () => {
     //   desc : "Expert Workers"
     // },
     {
-      title : "485",
-      desc : "Happy Clients"
+      title: "485",
+      desc: "Happy Clients"
     },
     {
-      title : "175",
-      desc : "Completed Projects"
+      title: "175",
+      desc: "Completed Projects"
     },
     // {
     //   title : "890",
@@ -29,102 +29,119 @@ export const Home = () => {
     // },
   ]
   const data2 = [
-    {id: 1,
-        img:"https://i.ibb.co/Ld97w5YV/2.webp",
-        title:"New Build",
-        desc:"Specializing in new construction, we tailor each project to meet your specific needs, ensuring a seamless build from groundbreaking to final handover",
-        icon: "https://cdn-icons-png.flaticon.com/128/16120/16120617.png",
-        link: "/new-build"
+    {
+      id: 1,
+      img: "https://i.ibb.co/Ld97w5YV/2.webp",
+      title: "New Build",
+      desc: "Build your dream home or commercial property with confidence. We design and construct modern, durable and stylish new builds that meet the highest UK building standards.",
+      icon: "https://cdn-icons-png.flaticon.com/128/16120/16120617.png",
+      link: "/new-build"
     },
-    {id: 2,
-        img:"https://i.ibb.co/0VngV85h/3.webp",
-        title:"Home Extensions",
-        desc:"Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
-        icon: "https://cdn-icons-png.flaticon.com/128/10726/10726374.png" 
+    {
+      id: 2,
+      img: "https://i.ibb.co/0VngV85h/3.webp",
+      title: "Home Extensions",
+      desc: "Add more space and value to your property with loft, kitchen, or garage conversions designed to match your lifestyle.",
+      icon: "https://cdn-icons-png.flaticon.com/128/10726/10726374.png"
     },
-    {id: 3,
-        img:"https://lh3.googleusercontent.com/6kOa7DjkgIlew2E8tP9Vc7CODRPnll3s6JB64hBNYTviTpxdKLPFhmMsT6EIkGGyo52MAs7ep6jtiNzXLwK3mYK5EA9FUJGwSEuxYgsI7R0zSI_5b9hD_WYj7KqnWsA=w599-nu-rw-e365",
-        title:"Loft or Basement Conversions",
-        desc:"Expand and enhance your living space with our expert addition and extension services, seamlessly integrating new areas into your existing home.",
-        icon: "https://cdn-icons-png.flaticon.com/128/8994/8994135.png" 
+    {
+      id: 3,
+      img: "https://lh3.googleusercontent.com/6kOa7DjkgIlew2E8tP9Vc7CODRPnll3s6JB64hBNYTviTpxdKLPFhmMsT6EIkGGyo52MAs7ep6jtiNzXLwK3mYK5EA9FUJGwSEuxYgsI7R0zSI_5b9hD_WYj7KqnWsA=w599-nu-rw-e365",
+      title: "Refurbishments & Renovations",
+      desc: "Transform outdated spaces into modern, energy-efficient and functional environments for homes and businesses.",
+      icon: "https://cdn-icons-png.flaticon.com/128/8994/8994135.png"
     },
-    {id: 4,
-      img:"https://lh3.googleusercontent.com/pWCnBEudJsA3ZBTh1QO5lwWi-mnnxf77r0rLxY6EGwie3FOkpmx41HEL-Ixu1nRSBp6XAgyXfPizTYD0O8rgk07-YWV5-XgnHIkhy3CEO9xECCJ3h2cWDOT4Oha1bK8=w599-nu-rw-e365",
-      title:"Design and Build",
-      desc:"Crafting your dream home from concept to completion, our custom home building services ensure a personalized living space that reflects your unique style and needs.",
-      icon: "https://cdn-icons-png.freepik.com/256/2942/2942452.png?ga=GA1.1.1560891219.1722257603&semt=ais_hybrid" 
-  },
-  { id: 5,
-    img:"https://lh3.googleusercontent.com/7Tx2pNcxDxH4Nast8oYxvUwA1kLD6KszJ7zgV-ZvCvErIHH8nty5bYdc-bd3H1U51C0UDdkGQWKQZYuqToDqS_y5DEz-Hlpgk_biPbFK2o8deE4omgi1tYVdzAoUvw=w800-nu-rw-e365",
-    title:"Commercial Construction",
-    desc:"For commercial spaces, we provide tailored construction solutions to meet your business needs, ensuring functionality and aesthetic appeal.",
-    icon: "https://cdn-icons-png.flaticon.com/128/12618/12618649.png" 
-},
-{id: 6,
-  img:"https://lh3.googleusercontent.com/KJwVsWv78Pxpl53AiZ7hMexs8GPohsRqHnuZM4Hrewa9WMkwkJtkJURWED4mNEzipY4GlRRqizVfLKVZ0RSrk-m5wAOrF4ulCFbjUXjzopKeqRyHxmOx4BgoX4mc=w599-nu-rw-e365",
-  title:"Renovations & Remodeling",
-  desc:"Transform your space with our renovation and remodeling expertise, bringing fresh life and functionality to your home or business.",
-  icon: "https://cdn-icons-png.flaticon.com/128/2942/2942551.png" 
-},
+    {
+      id: 4,
+      img: "https://lh3.googleusercontent.com/pWCnBEudJsA3ZBTh1QO5lwWi-mnnxf77r0rLxY6EGwie3FOkpmx41HEL-Ixu1nRSBp6XAgyXfPizTYD0O8rgk07-YWV5-XgnHIkhy3CEO9xECCJ3h2cWDOT4Oha1bK8=w599-nu-rw-e365",
+      title: "Loft Conversions",
+      desc: "Turn unused attic space into a stylish bedroom, office, or living area with our expert loft conversion services.",
+      icon: "https://cdn-icons-png.freepik.com/256/2942/2942452.png?ga=GA1.1.1560891219.1722257603&semt=ais_hybrid"
+    },
+    {
+      id: 5,
+      img: "https://lh3.googleusercontent.com/7Tx2pNcxDxH4Nast8oYxvUwA1kLD6KszJ7zgV-ZvCvErIHH8nty5bYdc-bd3H1U51C0UDdkGQWKQZYuqToDqS_y5DEz-Hlpgk_biPbFK2o8deE4omgi1tYVdzAoUvw=w800-nu-rw-e365",
+      title: "Property Maintenance & Repairs",
+      desc: "From small repairs to major fixes, we provide reliable property care that keeps your home or business in top condition.",
+      icon: "https://cdn-icons-png.flaticon.com/128/12618/12618649.png"
+    },
+    {
+      id: 6,
+      img: "https://lh3.googleusercontent.com/KJwVsWv78Pxpl53AiZ7hMexs8GPohsRqHnuZM4Hrewa9WMkwkJtkJURWED4mNEzipY4GlRRqizVfLKVZ0RSrk-m5wAOrF4ulCFbjUXjzopKeqRyHxmOx4BgoX4mc=w599-nu-rw-e365",
+      title: "Project Management",
+      desc: "Enjoy a stress-free build with our end-to-end project management, ensuring your project stays on time and within budget.",
+      icon: "https://cdn-icons-png.flaticon.com/128/2942/2942551.png"
+    },
   ]
   const data3 = [
     {
-        img:"https://i.ibb.co/Ld97w5YV/2.webp",
-        title:"",
-        desc:"Double Story Extension and Full House Refurbishment in HOLYPORT MAIDENHEAD"
+      img: "https://i.ibb.co/Ld97w5YV/2.webp",
+      title: "Double Story Extension & Full House Refurbishment – Holyport, Maidenhead",
+      desc: "A complete transformation of a family home with a spacious double-story extension and full interior refurbishment, blending modern style with practical living."
     },
-    {     img:"https://i.ibb.co/0VngV85h/3.webp",
-        title:"",
-        desc:"Double Story Extension and Full House Refurbishment in READING"
+    {
+      img: "https://i.ibb.co/0VngV85h/3.webp",
+      title: "Double Story Extension & Refurbishment – Reading",
+      desc: "Extended and upgraded a traditional property with a sleek double-story extension and full renovation to create more space and light."
     },
-    {     img:"https://lh3.googleusercontent.com/6kOa7DjkgIlew2E8tP9Vc7CODRPnll3s6JB64hBNYTviTpxdKLPFhmMsT6EIkGGyo52MAs7ep6jtiNzXLwK3mYK5EA9FUJGwSEuxYgsI7R0zSI_5b9hD_WYj7KqnWsA=w599-nu-rw-e365",
-      title:"",
-      desc:"From Plot of Land to New Build Project in GREAT MISSENDEN"
-  },
-  {     img:"https://lh3.googleusercontent.com/zH0P5HE7XTlf8nwxIHh8ilFYDLTc_boUgAnoyuSGFcnmLhTrA_MIcI7sdLWfZsXLE0G_umqUa7J9JwI7J1VCR_CREtS1kyb8s0_-6r78m8NgOF4VuFWKLCp1hIYY=w599-nu-rw-e365",
-    title:"",
-    desc:"Single story bungalow converted to double story Chalet bungalow in GALLOWSTREE COMMON, READING"
-},
-{     img:"https://lh3.googleusercontent.com/tMHxjScQUyNFUfuMooWIM7YYoPNqQBE3vhE_eyGCNLZTIoaymjwWWFKd_rD5NPOEuiPiQeUWqyciBS6_K_lMl--WufKmv2PkFeWl8jpN6E76KWl9mVs-KdnO3zfBjww=w599-nu-rw-e365",
-  title:"",
-  desc:"New build double story chalet bungalow in GERRARD CROSS"
-},
-{     
-  img:"https://lh3.googleusercontent.com/TQM6ybANxzKjrYt1Xp07Vr5gC8ptzlEJavhpFBt04X5orNmORTbfWjbj578L4B1k8hR9R6snXvRWexXwRwbwELI4ZCUNQ7yAsz9aoJqPROIvbNMp9cA3myS7oHosVg=w599-nu-rw-e365",
-  title:"",
-  desc:"Single story Extension and Renovation in READING"
-},
+    {
+      img: "https://lh3.googleusercontent.com/6kOa7DjkgIlew2E8tP9Vc7CODRPnll3s6JB64hBNYTviTpxdKLPFhmMsT6EIkGGyo52MAs7ep6jtiNzXLwK3mYK5EA9FUJGwSEuxYgsI7R0zSI_5b9hD_WYj7KqnWsA=w599-nu-rw-e365",
+      title: "New Build Home – Great Missenden",
+      desc: "From an empty plot of land to a stunning new build, designed and constructed with high-quality finishes and eco-friendly features."
+    },
+    {
+      img: "https://lh3.googleusercontent.com/zH0P5HE7XTlf8nwxIHh8ilFYDLTc_boUgAnoyuSGFcnmLhTrA_MIcI7sdLWfZsXLE0G_umqUa7J9JwI7J1VCR_CREtS1kyb8s0_-6r78m8NgOF4VuFWKLCp1hIYY=w599-nu-rw-e365",
+      title: "Chalet Bungalow Conversion – Gallowstree Common, Reading",
+      desc: "Converted a single-story bungalow into a beautiful double-story chalet bungalow, maximising space and comfort."
+    },
+    {
+      img: "https://lh3.googleusercontent.com/tMHxjScQUyNFUfuMooWIM7YYoPNqQBE3vhE_eyGCNLZTIoaymjwWWFKd_rD5NPOEuiPiQeUWqyciBS6_K_lMl--WufKmv2PkFeWl8jpN6E76KWl9mVs-KdnO3zfBjww=w599-nu-rw-e365",
+      title: "New Build Chalet Bungalow – Gerrards Cross",
+      desc: "A brand-new double-story chalet bungalow, designed with modern architecture and built to the highest UK standards."
+    },
+    {
+      img: "https://lh3.googleusercontent.com/TQM6ybANxzKjrYt1Xp07Vr5gC8ptzlEJavhpFBt04X5orNmORTbfWjbj578L4B1k8hR9R6snXvRWexXwRwbwELI4ZCUNQ7yAsz9aoJqPROIvbNMp9cA3myS7oHosVg=w599-nu-rw-e365",
+      title: "Single Story Extension & Renovation – Reading",
+      desc: "Delivered a stylish single-story extension and full renovation, creating a functional and contemporary family home"
+    },
 
   ]
-  useEffect(()=>{
+  useEffect(() => {
     document.title = "Home"
-  },[])
+  }, [])
   return (
     <>
       <Hero />
-      <TextPlagirism 
+      <TextPlagirism
         data2={data2}
         heading={<>We Provide The <span className='color-yellow'>Best Construction Services</span></>}
-        para="Expert construction services with quality, innovation, and on-time delivery. From concept to completion, we bring your vision to life with precision and excellence!"
+        para="At Connect Eco Builders, we offer a full range of residential and commercial
+construction services designed to add value, comfort, and style to your property.
+From concept to completion, our team ensures every project is delivered with
+innovation, precision and on-time delivery.
+"
         styling={true}
         styling2={false}
       />
       <EasySteps />
       {/* <PlansPricing /> */}
-      <Numbers 
-        heading={<>Powering Growth with   <span className='color-yellow'>Proven Results</span></>} 
-        para="Our numbers are more than just figures; they represent the trust, hard work, and innovation we deliver every day."
+      <Numbers
+        heading={<>Powering Growth with   <span className='color-yellow'>Proven Results</span></>}
+        para="Our numbers reflect the trust, quality and commitment we deliver every day. Success isn’t just measured in projects, it’s measured in the lasting
+relationships we build with our clients. Every figure represents our dedication
+to delivering on time, within budget, and to the highest standards of
+excellence."
         data={data}
       />
-       <TextPlagirism2 
+      <TextPlagirism2
         data2={data3} className="text_gtid"
-        heading={<>Our Featured   <span className='color-yellow'>Projects</span></>} 
-        para="Explore our standout projects that showcase innovation, quality, and expertise. Each project reflects our commitment to delivering exceptional solutions tailored to our clients' needs."
+        heading={<>Our Featured   <span className='color-yellow'>Projects</span></>}
+        para="Real projects that showcase our quality, expertise and attention to detail."
         styling={false}
         styling2={true}
-        
+
       />
-       {/* <Link to="#" className={`${style.readmore}`}>Read More</Link> */}
+      {/* <Link to="#" className={`${style.readmore}`}>Read More</Link> */}
       <OurCustomer />
       <ContactSection />
     </>

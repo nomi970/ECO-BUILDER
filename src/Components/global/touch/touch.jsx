@@ -17,10 +17,12 @@ const ContactSection = () => {
       <div className={styles.card}>
         <div className={styles.leftImage}></div>
         <div className={styles.content}>
-          <h2 className={styles.title}>Get In Touch</h2>
+          <h2 className={styles.title}>Ready to Start Your Project? </h2>
           <p className={styles.subtitle}>
-            Let’s build your future together. <br />
-            Contact us to start your project today.
+            Whether it’s a new build, extension, refurbishment, or repair, we’re here to
+            make it happen. Our team combines experience, quality workmanship, and clear
+            communication to deliver results you can trust.
+
           </p>
 
           <div className={styles.wq}>
@@ -56,7 +58,7 @@ const ContactSection = () => {
           </div>
 
           <div className={styles.socialSection}>
-            <p className={styles.followText}>Follow Us On Social Media</p>
+            <p className={styles.followText}>Stay connected with us for updates and recent projects: </p>
             <div className={styles.socialIcons}>
               <a href="https://www.facebook.com/share/196LiTLvvq/"><FaFacebookF /></a>
               <a href="#"><FaTwitter /></a>

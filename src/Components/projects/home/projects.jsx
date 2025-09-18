@@ -12,7 +12,11 @@ function Projects() {
   return (
     <div className={style.pt_50}>
       <section className="custom-container">
-        <FirstHeading className="text-center" heading={<>Projects</>} />
+        <FirstHeading className="text-center" heading={<>Featured Projects</>} />
+        <p style={{ color: '#494949ff', fontSize: '20px', paddingTop: '16px' }}>
+          Each project reflects our commitment to quality, detail, and trust. Explore some of
+          the standout work we’ve completed for homeowners and businesses.
+        </p>
 
         <div className={style.project__main_wrapper}>
           <div className={style.content_row}>
@@ -20,7 +24,7 @@ function Projects() {
             <div className={style.blog_row}>
               {project_data?.project_data?.map((item) => {
                 const title = item.title?.replace(/\s+/g, "-").toLowerCase();
-                console.log(title,'title')
+                console.log(title, 'title')
                 return (
                   <div key={item.id} className={style.blog_col}>
                     <Link

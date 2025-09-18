@@ -4,40 +4,44 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import style from './textPlag.module.css';
 import { Link } from "react-router-dom";
-export const TextPlagirism2 = ({data2, heading, para, styling, styling2}) => {
-   
-  return (
-    <>
-        <section className={`${style.plag_sec} ${styling && style.addClass}`}>
-            <div className='custom-container custom_row'>
-                <div className={styling && style.Plag_text}>
-                    <SecondHeading heading={heading} />
-                    <p className='text-sm color-grey fw-normal text-center'>{para}</p>
-                </div>
+export const TextPlagirism2 = ({ data2, heading, para, styling, styling2 }) => {
 
-                <Row className={`${style.plag_row02} ${styling2 && style.plag_row2}`}>
-                
-                    {
-                        data2.map(({img, title, desc}, i)=>{
-                            return(
-                                <Col className={style.projectCard}>
-                                    {/* Background Image Container */}
-                                    <div className={style.projectImage} style={{ backgroundImage: `url(${img})` }}>
-                                        {/* Overlay */}
-                                        <div className={style.projectOverlay}>
-                                            <h6 className='text-white'>{title}</h6> {/* Dynamic Title */}
-                                            <p>{desc}</p> {/* Dynamic Description */}
+    return (
+        <>
+            <section className={`${style.plag_sec} ${styling && style.addClass}`}>
+                <div className='custom-container custom_row'>
+                    <div className={styling && style.Plag_text}>
+                       
+                        <SecondHeading heading={heading} />
+                        <p className='text-sm color-grey fw-normal text-center'>{para}</p>
+                        <h6 style={{ fontSize: '18px', textAlign: 'center', paddingTop: '10px' }}>At Connect Eco Builders, we don’t just build - we create spaces that transform
+                            how people live and work. Here are some of our standout projects across West
+                            London, Berkshire and surrounding areas:</h6>
+                    </div>
+
+                    <Row className={`${style.plag_row02} ${styling2 && style.plag_row2}`}>
+
+                        {
+                            data2.map(({ img, title, desc }, i) => {
+                                return (
+                                    <Col className={style.projectCard}>
+                                        {/* Background Image Container */}
+                                        <div className={style.projectImage} style={{ backgroundImage: `url(${img})` }}>
+                                            {/* Overlay */}
+                                            <div className={style.projectOverlay}>
+                                                <h6 className='text-white'>{title}</h6> {/* Dynamic Title */}
+                                                <p>{desc}</p> {/* Dynamic Description */}
+                                            </div>
                                         </div>
-                                    </div>
-                    </Col>  
-                    
-                            )
-                        })
-                    }
-                </Row>
-                <Link to="#" className={`${style.readmore}`}>Read More</Link>
-            </div>
-        </section>
-    </>
-  )
+                                    </Col>
+
+                                )
+                            })
+                        }
+                    </Row>
+                    <Link to="#" className={`${style.readmore}`}>Read More</Link>
+                </div>
+            </section>
+        </>
+    )
 }

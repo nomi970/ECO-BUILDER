@@ -51,7 +51,9 @@ export const OurCustomer = () => {
           <div className={style.customer_text}>
             {/* <SecondHeading heading="What Our Clients Say About Us" /> */}
             <SecondHeading heading={<>What  <span className='color-yellow'>Our Clients</span> Say About Us </>} />
-            <p className='pt-4'> At the core of our construction projects is customer satisfaction. We take pride in delivering top-quality work that exceeds expectations. See what our clients have to say about their journey with us!</p>
+            <p className='pt-4'> Real feedback from homeowners and businesses who trusted us with their projects.</p>
+            <p className='pt-4' style={{fontSize: "18px"}}> Our greatest achievement is the satisfaction of our clients. Here’s what some
+              of them have to say about working with us:</p>
 
           </div>
           <Swiper
