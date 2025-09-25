@@ -21,12 +21,9 @@ export const Hero = () => {
                         <span style={{ color: "white", fontSize: "22px" }}>Welcome to Connect Eco Builders</span>
                         <FirstHeading heading={<><span style={{ color: "white" }}>WE BUILD YOUR</span> <span className="color-yellow">DREAMS.</span></>} />
                         <p className={`${style.text_blr_white}`}>
-                            Your Space, Our Expertise
+                            Your Space, Our Expertise - Trusted Builders in Slough, Windsor, Maidenhead, Reading and across West London.
                         </p>
-                        <p className="text-white" style={{ fontSize: "20px", paddingTop: "0" }}>Trusted builders delivering residential and commercial construction services
-                            across West London, Thames Valley, Hertfordshire, and Buckinghamshire.
-                            From new builds to extensions and renovations, we turn your ideas into reality
-                            with quality, precision and care.
+                        <p className="text-white" style={{ fontSize: "20px", paddingTop: "0" }}>With over 15 years in the building trade, Connect Eco Builders has delivered everything from small refurbishments to major new builds worth £500k+. Our work is known locally for reliability, clear communication and projects completed on time.
                         </p>
                         <Link to="/contact-us" className={`${style.banner_btn}`}>
                             Get Free Quote
@@ -40,12 +37,16 @@ export const Hero = () => {
                 <div className="custom-container">
                     <h4>Approved By</h4>
                     <img className={`${style.approved_im}`} src='./images/Approved.jpeg'></img>
+                    <h2 className='mt-4'>Recognised & Trusted Across Berkshire and West London</h2>
                     <p className="" style={{ fontSize: "20px", paddingTop: "22px" }}>
-                        We’re proud to be approved and recognised by leading UK construction
-                        authorities and trade associations. Our certifications ensure that every project we
-                        deliver meets the highest standards of safety, sustainability, and workmanship.
-
+                        Our reputation is built on more than words - it’s backed by proven results and independent accreditations:
                     </p>
+                    <ul>
+                        <li style={{listStyle: "disc"}}>61 verified Checkatrade reviews, averaging 9.63/10 across reliability, workmanship and customer service.</li>
+                        <li style={{listStyle: "disc"}}>Accredited by TrustMark and the Federation of Master Builders (FMB).</li>
+                        <li style={{listStyle: "disc"}}>5+ years of experience delivering projects across Berkshire & West London</li>
+                        <li style={{listStyle: "disc"}}>Warranty-backed projects – all works, including subcontractors like electricians and plasterers, are covered under the Connect Eco Builders guarantee.</li>
+                    </ul>
                 </div>
             </section>
 

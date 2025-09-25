@@ -10,10 +10,7 @@ export const Banner = () => {
                     <div className={style.banner_heading}>
                         {/* <p>Blogs</p> */}
                         <FirstHeading heading={<>Constructing Excellence, <span className='color-yellow'>Building the Future</span></>} />
-                        <p>From concept to completion, we deliver high-quality residential and commercial
-                            construction services across West London, Thames Valley, Hertfordshire, and
-                            Buckinghamshire. Whether it’s a new build, extension, or refurbishment, we
-                            ensure precision, transparency and on-time delivery.</p>
+                        <p>For over 15 years, we’ve delivered everything from new builds in Gerrards Cross to extensions in Maidenhead and refurbishments in Reading. With a Checkatrade score of 9.63/10 and warranty-backed work, our services combine quality, compliance, and trusted local experience</p>
                     </div>
                 </div>
 

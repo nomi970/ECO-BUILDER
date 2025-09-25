@@ -13,17 +13,17 @@ export const Footer = () => {
                     <Col className={`${style.footer_logo_col} p-0`}>
                         <div className={style.newsletter_box}>
                             <Link to="/">
-                                {/* <img 
+                                <img 
                                 src="https://connectecobuilders.com/wp-content/uploads/2024/02/cropped-34-01-3-300x117-CEB-BANN-1-1-106x35.png" 
                                 alt="Houseline Logo" 
                                 className={style.footer_logo} 
-                            /> */}
+                            />
                                 <img
                                     src="https://i.ibb.co/p6LC1vPv/cropped-34-01-3-300x117-CEB-BANN-1-1-106x35-1.png"
                                     alt="Houseline Logo"
                                     className={style.footer_logo}
                                 />
-                                {/* <p>LOGO</p> */}
+                                <p>LOGO</p>
                             </Link>
                             <p>Building trust, one project at a time.</p>
                             <p>Stay updated with the latest construction trends, tips and offers.

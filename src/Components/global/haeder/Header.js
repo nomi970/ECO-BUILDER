@@ -38,9 +38,9 @@ export const Header = () => {
     <Navbar expand="md" className={`${style.nav__stl} ${scroll ? style.scrolled : ""}`}>
       <Container fluid className='custom-container'>
         <Navbar.Brand href="/">
-        {/* <p>LOGO</p> */}
+        <p>LOGO</p>
           {/* <img className={style.nav_logo} src="https://connectecobuilders.com/wp-content/uploads/2024/02/cropped-34-01-3-300x117-CEB-BANN-1-1-106x35.png" alt="" /> */}
-          <img className={style.nav_logo} src="https://i.ibb.co/p6LC1vPv/cropped-34-01-3-300x117-CEB-BANN-1-1-106x35-1.png" alt="" />
+          {/* <img className={style.nav_logo} src="https://i.ibb.co/p6LC1vPv/cropped-34-01-3-300x117-CEB-BANN-1-1-106x35-1.png" alt="" /> */}
         </Navbar.Brand>
         <Navbar.Toggle onClick={() => setOpenNav(!openNav)} />
         <div className='nav'>

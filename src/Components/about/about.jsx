@@ -11,16 +11,10 @@ export default function AboutComponent() {
           {/* <h1 className=''>About Us</h1> */}
           {/* <p className=''>We are a team of professionals who are dedicated to providing you with the best services.</p> */}
           <FirstHeading heading={<><span className='color-yellow'>About Us</span></>} />
-          <p className={style.hero_desc}>At Connect Eco Builders, we believe construction is more than bricks and
-            mortar, it’s about creating spaces that inspire, connect, and last for
-            generations. With years of experience in residential and commercial
-            construction, we’ve built a reputation for quality, reliability and on-time
-            delivery across West London, Thames Valley, Hertfordshire and
-            Buckinghamshire.
+          <p className={style.hero_desc}>Trusted builders with 15+ years’ experience delivering new builds, extensions, and refurbishments across Slough, Windsor, Maidenhead, Reading, Uxbridge, and West London.
+
           </p>
-          <p className={style.hero_desc}>From new builds and extensions to renovations and project management,
-            our mission is simple: to combine craftsmanship, innovation, and integrity to
-            bring your vision to life.
+          <p className={style.hero_desc}>With 61 verified Checkatrade reviews averaging 9.63/10, memberships with TrustMark and the Federation of Master Builders (FMB), and a track record of projects from 45m² extensions in Maidenhead to care home upgrades in Ascot, At Connect Eco Builders, we’ve built our reputation on clear communication, warranty-backed work, and projects delivered without delay in Building Control sign-off.
 
           </p>
         </div>

@@ -14,9 +14,7 @@ export const TextPlagirism2 = ({ data2, heading, para, styling, styling2 }) => {
                        
                         <SecondHeading heading={heading} />
                         <p className='text-sm color-grey fw-normal text-center'>{para}</p>
-                        <h6 style={{ fontSize: '18px', textAlign: 'center', paddingTop: '10px' }}>At Connect Eco Builders, we don’t just build - we create spaces that transform
-                            how people live and work. Here are some of our standout projects across West
-                            London, Berkshire and surrounding areas:</h6>
+                        <h6 style={{ fontSize: '18px', textAlign: 'center', paddingTop: '10px' }}>Every project tells a story. From family homes in Maidenhead to care facilities in Ascot. Here are just some of the spaces we’ve transformed with quality construction, local expertise and trusted workmanship.</h6>
                     </div>
 
                     <Row className={`${style.plag_row02} ${styling2 && style.plag_row2}`}>
