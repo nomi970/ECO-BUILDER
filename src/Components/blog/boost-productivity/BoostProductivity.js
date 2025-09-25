@@ -11,14 +11,10 @@ export const BoostProductivity = () => {
           <span className={style.underline}></span> <span className="color-yellow">OUR CORE VALUES</span>
           <h2 className="mt-3">Building Integrity, Excellence & Innovation Into Every Project</h2>
           <p>
-            Our values are the foundation of everything we build.
-          </p>
-          <p>
-            We believe strong values create strong results. Guided by Integrity, Excellence
-            and Innovation, we ensure every project reflects not only high standards but
-            also lasting relationships with our clients.
+            Our approach is simple, safe builds, quality workmanship and satisfied clients. These principles guide every project we deliver across Berkshire and West London. Our values are the foundation of everything we build.
 
           </p>
+         
         </div>
 
         {/* Core Values Icons Section */}
@@ -31,7 +27,7 @@ export const BoostProductivity = () => {
               </div>
               <h3>Safety First</h3>
               <p>
-                We never compromise on safety. Every project is built with strict safety
+                100% Building Control sign-off record. Every project is built with strict safety
                 protocols, proper training and proactive planning. By fostering a culture of
                 awareness and responsibility, we ensure a safe environment for our team,
                 partners, and clients.
@@ -49,7 +45,7 @@ export const BoostProductivity = () => {
               </div>
               <h3>Delivering Excellence</h3>
               <p>
-                For us, good is never enough. We aim for outstanding results, using modern
+                Warranty covers every trade, from electrics to plastering. We aim for outstanding results, using modern
                 methods and skilled craftsmanship to exceed expectations. With an eye for detail
                 and a drive for perfection, we deliver projects that clients are proud of.
               </p>
@@ -65,7 +61,7 @@ export const BoostProductivity = () => {
               </div>
               <h3>Client Satisfaction</h3>
               <p>
-                Our clients are at the heart of what we do. By listening carefully, planning
+                Clear breakdowns, VAT registered, no hidden costs. By listening carefully, planning
                 thoughtfully and executing precisely, we make sure every need is met. The
                 result? Happy clients and long-term trust built on consistent performance.
               </p>

@@ -63,7 +63,8 @@ export const Numbers = ({ heading, para, data }) => {
                     {data.map((items, i) => (
                         <Col key={i.toString()} className={style.number_col}>
                             <h6>{counts[i]}</h6> {/* Counter Animation */}
-                            <p>{items.desc}</p>
+                            <p style={{fontSize: "22px", color: "black"}}>{items.desc}</p>
+                            <p>{items.desc2}</p>
                         </Col>
                     ))}
                 </Row>

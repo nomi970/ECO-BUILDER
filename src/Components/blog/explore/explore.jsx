@@ -25,10 +25,8 @@ const Explore = () => {
         <h3 className={style.subheading}>Start Building Your Vision Today</h3>
         <h2 className={style.heading}>Your ideas deserve to become reality.</h2>
         <p className={style.description}>
-          Whether it’s a new home, an extension or loft conversion, or a complete
-          refurbishment, our team is ready to guide you from the first sketch to the final
-          build. We combine quality craftsmanship, modern design, and eco-friendly
-          practices to deliver results that last.
+          When you choose Connect Eco Builders, you’re working with a team that takes responsibility for every detail. All work is warranty-backed, covering not just our builders but also trusted subcontractors like electricians and plasterers. We provide clear, staged payment breakdowns that are VAT registered, so you always know where you stand. And we handle all the compliance too, from Building Control sign-offs to party wall agreements and inspections. ensuring your project runs smoothly from start to finish
+
         </p>
         <p className={style.description}>We also welcome partnerships with suppliers, architects, and community
           organisations who share the same commitment to excellence and innovation.

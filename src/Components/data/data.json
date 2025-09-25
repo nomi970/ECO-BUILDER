@@ -8,12 +8,12 @@
       "blogImag": "https://lh3.googleusercontent.com/G19a_D4oREsKzbZ--RAROxaJXliolWD9KViBTonWBcIGhjRHfgcJZK03bpqNQfKz0hUHgwpV7tiif1n1_gXtVUZHTRN3_o8qwSEmwIbj9K6xNXwDV_jFtKBWJS3byA=w599-nu-rw-e365",
       "userImg": "./images/user.png",
       "userName": "Candice Wu",
-      "designation": "We provide expert brickwork and concrete repair services to restore strength and safety to your property. Using modern techniques and durable materials, we ensure long-lasting stability and compliance with UK building standards.",
+      "designation": "Repairing cracked walls, damaged brickwork and weakened concrete with safe, long-lasting solutions. (e.g. boundary wall rebuild in Bromley with new roof, insulation and drainage).",
       "date": "Aug 9, 2023",
       "raedTime": "11 min",
       "service1_title": "Home Extensions",
       "service1_img": "../../images/servive_bg1.jpg",
-      "service1_desc": "Restoring strength, safety, and value to your property with reliable, professional repair solutions. ",
+      "service1_desc": "Restoring strength and safety to damaged brickwork and concrete across Slough, Windsor, Maidenhead, Reading, and West London. ",
       "service_detail_sec_1_title1": "Safe Structures ",
       "service_detail_sec_1_title1_spn": "Strong Foundations, ",
       "service_detail_sec_1_title1_desc": "Brick and concrete are the backbone of every building. Over time, natural wear and tear, harsh weather, or ground movement can lead to cracks, weakened walls, or damaged foundations. If left unchecked, these issues can compromise safety and reduce the value of your property. Our team specialises in professional brickwork and concrete repairs that not only fix the visible damage but also strengthen the structure for years to come. From small cracks to major restoration work, we make sure your property remains safe, stable, and built to last.  ",
@@ -26,7 +26,7 @@
       "service_detail_sec_2_title1_spn": "Protect Tomorrow ",
       "service_detail_sec_2_title": "  ",
       "service_detail_sec_2_title01": "Repair Today, ",
-      "service_detail_sec_2_title_desc": "Cracks in walls or damage to concrete might seem minor at first, but they can quickly turn into expensive structural problems. We take a proactive approach: inspect, diagnose, and repair with precision. Our focus is on giving you peace of mind, knowing that your property is safe, sound, and ready for the future.",
+      "service_detail_sec_2_title_desc": "Over time, brick and concrete can suffer from cracks, weather damage, or structural issues. Left untreated, these problems can lead to bigger risks. We specialise in brick replacements, wall reinforcements, crack stitching, repointing and concrete repairs. From domestic homes in Slough to boundary walls and outbuildings in Bromley, our repairs are carried out to the highest standard, ensuring long-term stability and safety.",
       "sec_3_title01": "Reliable Repairs ",
       "sec_3_title01_desc": "We fix more than the surface. Our repairs address the root cause of the problem. Using trusted techniques, we restore structural integrity so you won’t face the same issues again.",
       "sec_3_title02": "Quality Workmanship ",
@@ -362,7 +362,7 @@
         "Client-Focused – Clear communication and support from start to finish."
       ],
       "recent_projects_title": "Start Building Your Vision Today",
-      "recent_projects_title__desci" : "Your ideas deserve to become reality",
+      "recent_projects_title__desci": "Your ideas deserve to become reality",
       "projects": [
         {
           "desc": "Whether it’s a new home, an extension or loft conversion, or a complete refurbishment, our team is ready to guide you from the first sketch to the final. build. We combine quality craftsmanship, modern design, and eco-friendly practices to deliver results that last."
@@ -376,7 +376,6 @@
       "id": 2,
       "title": "Home Extensions – Expanding Spaces with Purpose and Precision",
       "description": "Expanding and modernising a family home to create more living space and a fresh, contemporary style.",
-      
       "process_title": "Our Process",
       "projects_banner_image": "https://cdn.pixabay.com/photo/2024/01/09/17/54/ai-generated-8498128_640.jpg",
       "why_choose_image": "https://cdn.pixabay.com/photo/2024/11/10/16/23/construction-engineer-9188149_640.jpg",
@@ -408,8 +407,7 @@
         "Eco-Conscious Approach – Incorporating energy-efficient materials and methods."
       ],
       "recent_projects_title": "Recent Home Extension Projects",
-      "recent_projects_title__desci" : "Your ideas deserve to become reality.",
-
+      "recent_projects_title__desci": "Your ideas deserve to become reality.",
       "projects": [
         {
           "desc": "Whether it’s a new home, an extension or loft conversion, or a complete refurbishment, our team is ready to guide you from the first sketch to the final build. We combine quality craftsmanship, modern design, and eco-friendly practices to deliver results that last."

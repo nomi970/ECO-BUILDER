@@ -11,29 +11,33 @@ import ContactSection from '../../Components/global/contactSection/contactSectio
 
 export const Home = () => {
   const data = [
-    // {
-    //   title : "109",
-    //   desc : "Expert Workers"
-    // },
     {
-      title: "485",
-      desc: "Happy Clients"
+      title : "61",
+      desc : "Verified Reviews",
+      desc2 : "Checkatrade score 9.63/10"
+    },
+    {
+      title: "15+",
+      desc: "Years of Experience",
+      desc2: "Delivering projects across Berkshire & West London"
     },
     {
       title: "175",
-      desc: "Completed Projects"
+      desc: "Completed Projects",
+      desc2: "£100k–£500k projects alongside 7–8 smaller jobs annually"
     },
-    // {
-    //   title : "890",
-    //   desc : "Running Projects"
-    // },
+    {
+      title : "890",
+      desc : "Running Projects",
+      desc2: "Every project passed inspections without delays"
+    },
   ]
   const data2 = [
     {
       id: 1,
       img: "https://i.ibb.co/Ld97w5YV/2.webp",
       title: "New Build",
-      desc: "Build your dream home or commercial property with confidence. We design and construct modern, durable and stylish new builds that meet the highest UK building standards.",
+      desc: "From a plot of land to a finished home, built to modern standards. We design and construct modern, durable and stylish new builds that meet the highest UK building standards.",
       icon: "https://cdn-icons-png.flaticon.com/128/16120/16120617.png",
       link: "/new-build"
     },
@@ -76,33 +80,27 @@ export const Home = () => {
   const data3 = [
     {
       img: "https://i.ibb.co/Ld97w5YV/2.webp",
-      title: "Double Story Extension & Full House Refurbishment – Holyport, Maidenhead",
-      desc: "A complete transformation of a family home with a spacious double-story extension and full interior refurbishment, blending modern style with practical living."
+      title: "Double-Storey Extension & Refurbishment - Maidenhead (45m² open-plan with bi-fold doors, completed in 12 weeks)",
     },
     {
       img: "https://i.ibb.co/0VngV85h/3.webp",
-      title: "Double Story Extension & Refurbishment – Reading",
-      desc: "Extended and upgraded a traditional property with a sleek double-story extension and full renovation to create more space and light."
+      title: "Double-Storey Extension - Reading (rear extension with modern interiors, on-time delivery)",
     },
     {
       img: "https://lh3.googleusercontent.com/6kOa7DjkgIlew2E8tP9Vc7CODRPnll3s6JB64hBNYTviTpxdKLPFhmMsT6EIkGGyo52MAs7ep6jtiNzXLwK3mYK5EA9FUJGwSEuxYgsI7R0zSI_5b9hD_WYj7KqnWsA=w599-nu-rw-e365",
-      title: "New Build Home – Great Missenden",
-      desc: "From an empty plot of land to a stunning new build, designed and constructed with high-quality finishes and eco-friendly features."
+      title: "New Build Home - Great Missenden (plot to family home with eco-heating & open-plan living)",
     },
     {
       img: "https://lh3.googleusercontent.com/zH0P5HE7XTlf8nwxIHh8ilFYDLTc_boUgAnoyuSGFcnmLhTrA_MIcI7sdLWfZsXLE0G_umqUa7J9JwI7J1VCR_CREtS1kyb8s0_-6r78m8NgOF4VuFWKLCp1hIYY=w599-nu-rw-e365",
-      title: "Chalet Bungalow Conversion – Gallowstree Common, Reading",
-      desc: "Converted a single-story bungalow into a beautiful double-story chalet bungalow, maximising space and comfort."
+      title: "Chalet Bungalow Conversion - Gallowstree Common (single-storey converted to double-storey with new bedrooms)",
     },
     {
       img: "https://lh3.googleusercontent.com/tMHxjScQUyNFUfuMooWIM7YYoPNqQBE3vhE_eyGCNLZTIoaymjwWWFKd_rD5NPOEuiPiQeUWqyciBS6_K_lMl--WufKmv2PkFeWl8jpN6E76KWl9mVs-KdnO3zfBjww=w599-nu-rw-e365",
-      title: "New Build Chalet Bungalow – Gerrards Cross",
-      desc: "A brand-new double-story chalet bungalow, designed with modern architecture and built to the highest UK standards."
+      title: "New Build Chalet Bungalow - Gerrards Cross (two-storey new build combining traditional style & energy efficiency)",
     },
     {
       img: "https://lh3.googleusercontent.com/TQM6ybANxzKjrYt1Xp07Vr5gC8ptzlEJavhpFBt04X5orNmORTbfWjbj578L4B1k8hR9R6snXvRWexXwRwbwELI4ZCUNQ7yAsz9aoJqPROIvbNMp9cA3myS7oHosVg=w599-nu-rw-e365",
-      title: "Single Story Extension & Renovation – Reading",
-      desc: "Delivered a stylish single-story extension and full renovation, creating a functional and contemporary family home"
+      title: "Single-Storey Extension - Reading (ground-floor extension with open-plan kitchen & upgraded interiors)",
     },
 
   ]
@@ -115,11 +113,7 @@ export const Home = () => {
       <TextPlagirism
         data2={data2}
         heading={<>We Provide The <span className='color-yellow'>Best Construction Services</span></>}
-        para="At Connect Eco Builders, we offer a full range of residential and commercial
-construction services designed to add value, comfort, and style to your property.
-From concept to completion, our team ensures every project is delivered with
-innovation, precision and on-time delivery.
-"
+        para="At Connect Eco Builders,We provide a wide range of building services, backed by skilled tradesmen and vetted subcontractors we’ve worked with for years. From concept to completion, our team ensures every project is delivered with innovation, precision and on-time delivery."
         styling={true}
         styling2={false}
       />
@@ -127,16 +121,13 @@ innovation, precision and on-time delivery.
       {/* <PlansPricing /> */}
       <Numbers
         heading={<>Powering Growth with   <span className='color-yellow'>Proven Results</span></>}
-        para="Our numbers reflect the trust, quality and commitment we deliver every day. Success isn’t just measured in projects, it’s measured in the lasting
-relationships we build with our clients. Every figure represents our dedication
-to delivering on time, within budget, and to the highest standards of
-excellence."
+        para="Our numbers reflect the trust, quality and commitment we deliver every day."
         data={data}
       />
       <TextPlagirism2
         data2={data3} className="text_gtid"
         heading={<>Our Featured   <span className='color-yellow'>Projects</span></>}
-        para="Real projects that showcase our quality, expertise and attention to detail."
+        para="Our Recent Work Across Berkshire & West London"
         styling={false}
         styling2={true}
 

@@ -9,8 +9,8 @@ export const EasySteps = () => {
     const data = [
         {
             img: "https://houselineconstruction.co.uk/wp-content/uploads/2024/05/new-build-3.jpg",
-            title: "About Houseline Construction",
-            desc: "We take pride in being one of the leading construction firms across West London, Thames Valley, Hertfordshire and Buckinghamshire We specialise in residential and commercial projects, combining skilled craftsmanship, modern design and eco-friendly practices to create spaces that last a lifetime. Our mission is simple: to provide quality, transparency and innovation at every step from planning and design to construction and final delivery.Whether it’s a new build, extension or refurbishment, we are committed to turning your vision into reality.",
+            title: "Builders with Experience You Can Trust",
+            desc: "For over 15 years, we’ve built our reputation on quality, compliance and client trust across Berkshire and West London. On average, we deliver 7–8 smaller projects each year (£5k–£20k), alongside 2–3 major builds ranging from £100k–£500k. Whether it’s a new build, extension or refurbishment, clients know they’ll get the same care and attention on every project. Our team works with subcontractors we’ve trusted for years - electricians, plasterers, plumbers but all warranties are provided directly by Connect Eco Builders, so clients only ever deal with us. Much of our work comes from repeat customers who value reliability, clear communication, and projects that pass Building Control approval for the first time.",
             
         },
     ]
