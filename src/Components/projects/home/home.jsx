@@ -9,8 +9,8 @@ function home() {
           <div className={style.banner_heading}>
             <FirstHeading heading={<>Our  <span className='color-yellow'>Projects</span></>} />
             <p style={{ color: '#fff', fontSize: '20px', paddingTop: '16px' }}>
-              Showcasing the homes, extensions, and renovations we’ve proudly delivered
-              across West London and beyond
+              Real homes, real results. Delivered across Slough, Windsor, Maidenhead, Reading, Gerrards Cross and West London
+
             </p>
           </div>
         </div>
