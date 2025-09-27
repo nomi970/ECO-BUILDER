@@ -14,6 +14,7 @@ function RecentProjects({ data }) {
           <h2>{data.title}</h2>
           <p>{data.description}</p>
 
+          <p>{data.pro_detail_des}</p>
           <h3>{data.process_title}</h3>
            
            <img className={style.projects_banner_image} src={data.projects_banner_image} alt='' />

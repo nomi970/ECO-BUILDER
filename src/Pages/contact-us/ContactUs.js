@@ -9,22 +9,26 @@ export const ContactUs = () => {
     document.title = "Contact Us"
   },[])
   const data = [
-    // {
-    //   title : "109",
-    //   desc : "Expert Workers"
-    // },
-    {
-      title : "485",
-      desc : "Happy Clients"
+     {
+      title : "61",
+      desc : "Verified Reviews",
+      desc2 : "Checkatrade score 9.63/10"
     },
     {
-      title : "175",
-      desc : "Completed Projects"
+      title: "15+",
+      desc: "Years of Experience",
+      desc2: "Delivering projects across Berkshire & West London"
     },
-    // {
-    //   title : "890",
-    //   desc : "Running Projects"
-    // },
+    {
+      title: "175",
+      desc: "Completed Projects",
+      desc2: "£100k–£500k projects alongside 7–8 smaller jobs annually"
+    },
+    {
+      title : "890",
+      desc : "Running Projects",
+      desc2: "Every project passed inspections without delays"
+    },
   ]
 
   return (

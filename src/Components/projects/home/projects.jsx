@@ -14,8 +14,9 @@ function Projects() {
       <section className="custom-container">
         <FirstHeading className="text-center" heading={<>Featured Projects</>} />
         <p style={{ color: '#494949ff', fontSize: '20px', paddingTop: '16px' }}>
-          Each project reflects our commitment to quality, detail, and trust. Explore some of
-          the standout work we’ve completed for homeowners and businesses.
+          From 45m² extensions in Maidenhead to new build chalets in Gerrards Cross and bungalow conversions in Reading, every project we complete is backed by warranty, Building Control approval and 15+ years of local experience.
+          Explore our portfolio to see how we’ve helped families and businesses turn ideas into spaces that last.
+
         </p>
 
         <div className={style.project__main_wrapper}>
