@@ -25,10 +25,12 @@ export const Hero = () => {
                         </p>
                         <p className="text-white" style={{ fontSize: "20px", paddingTop: "0" }}>With over 15 years in the building trade, Connect Eco Builders has delivered everything from small refurbishments to major new builds worth £500k+. Our work is known locally for reliability, clear communication and projects completed on time.
                         </p>
-                        <Link to="/contact-us" className={`${style.banner_btn}`}>
+                        {/* <Link to="#contact__us" className={`${style.banner_btn}`}>
                             Get Free Quote
-                        </Link>
-
+                        </Link> */}
+                        <a href="#contact__us" className={style.banner_btn}>
+                            Get Free Quote
+                        </a>
                     </div>
                 </div>
 
@@ -42,10 +44,10 @@ export const Hero = () => {
                         Our reputation is built on more than words - it’s backed by proven results and independent accreditations:
                     </p>
                     <ul>
-                        <li style={{listStyle: "disc"}}>61 verified Checkatrade reviews, averaging 9.63/10 across reliability, workmanship and customer service.</li>
-                        <li style={{listStyle: "disc"}}>Accredited by TrustMark and the Federation of Master Builders (FMB).</li>
-                        <li style={{listStyle: "disc"}}>5+ years of experience delivering projects across Berkshire & West London</li>
-                        <li style={{listStyle: "disc"}}>Warranty-backed projects – all works, including subcontractors like electricians and plasterers, are covered under the Connect Eco Builders guarantee.</li>
+                        <li style={{ listStyle: "disc" }}>61 verified Checkatrade reviews, averaging 9.63/10 across reliability, workmanship and customer service.</li>
+                        <li style={{ listStyle: "disc" }}>Accredited by TrustMark and the Federation of Master Builders (FMB).</li>
+                        <li style={{ listStyle: "disc" }}>15+ years of experience delivering projects across Berkshire & West London</li>
+                        <li style={{ listStyle: "disc" }}>Warranty-backed projects – all works, including subcontractors like electricians and plasterers, are covered under the Connect Eco Builders guarantee.</li>
                     </ul>
                 </div>
             </section>
