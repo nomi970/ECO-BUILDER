@@ -37,7 +37,7 @@ export const TextPlagirism2 = ({ data2, heading, para, styling, styling2 }) => {
                             })
                         }
                     </Row>
-                    <Link to="#" className={`${style.readmore}`}>Read More</Link>
+                    <Link to="/projects" className={`${style.readmore}`}>Read More</Link>
                 </div>
             </section>
         </>

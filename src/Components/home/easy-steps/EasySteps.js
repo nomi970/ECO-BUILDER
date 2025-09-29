@@ -33,7 +33,7 @@ export const EasySteps = () => {
                                             <Col className='p-0'>
                                                 {/* <h3>{i+1}</h3> */}
                                                 <h2>{title}</h2>
-                                                <p>{desc}</p>
+                                                <p style={{fontSize: "15px"}}>{desc}</p>
                                                 <div className={style.steps_btn}>
                                                     <Link to="/about" className={`${style.readmore}`}>Read More</Link>
                                                 </div>
