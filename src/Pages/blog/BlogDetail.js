@@ -69,7 +69,7 @@ export const BlogDetail = () => {
   {/* Personalized Design */}
   <div className={style.flx__war_500} style={{ display: 'flex', marginBottom: '40px', gap: '20px'  }}>
     <div style={{ width: '120px', marginRight: '20px' }}>
-      <img src='../../../images/Personalized_Design.png'></img>
+      <img src='../../../images/Personalized_Design.png' alt='blogs-detail-images'></img>
     </div>
     <div>
       <h2 className={style.building_services_title}>{isActive.sec_3_title01}</h2>
@@ -80,7 +80,7 @@ export const BlogDetail = () => {
   {/* Quality Craftsmanship */}
   <div className={style.flx__war_500} style={{ display: 'flex', marginBottom: '40px', gap: '20px' }}>
     <div style={{ width: '100px', marginRight: '20px' }}>
-    <img src='../../../images/Quality_Craftsmanship.png'></img>
+    <img src='../../../images/Quality_Craftsmanship.png' alt='blogs-detail-images'></img>
     </div>
     <div>
       <h2 className={style.building_services_title}>{isActive.sec_3_title02}</h2>
@@ -92,7 +92,7 @@ export const BlogDetail = () => {
   {/* Innovative Solutions */}
   <div className={style.flx__war_500} style={{ display: 'flex', gap: '20px' , marginBottom: '40px',  }}>
     <div style={{ width: '90px', marginRight: '20px' }}>
-    <img src='../../../images/Innovative_Solutions.png'></img>
+    <img src='../../../images/Innovative_Solutions.png' alt='blogs-detail-images'></img>
     </div>
     <div>
       <h2 className={style.building_services_title}>{isActive.sec_3_title03} </h2>

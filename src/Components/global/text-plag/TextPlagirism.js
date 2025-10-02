@@ -38,7 +38,7 @@ export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
                                     {/* Content Section */}
                                     <div className={style.content}>
                                         <div className={style.icon}>
-                                            <img src={icon} alt="icon" style={{ width: "40px", height: "40px" }} /> {/* Icon as an Image */}
+                                            <img src={icon} alt="services-images" style={{ width: "40px", height: "40px" }} /> {/* Icon as an Image */}
                                         </div>
                                         <h6>{title}</h6> {/* Dynamic Title */}
                                         <p>{desc}</p> {/* Dynamic Description */}

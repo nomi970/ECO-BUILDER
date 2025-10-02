@@ -62,10 +62,26 @@ export const Numbers = ({ heading, para, data }) => {
                 <Row className={style.number_row}>
                     {data.map((items, i) => (
                         <Col key={i.toString()} className={style.number_col}>
-                            <h6>{counts[i]}</h6> {/* Counter Animation */}
-                            <p style={{fontSize: "22px", color: "black"}}>{items.desc}</p>
-                            <p>{items.desc2}</p>
-                        </Col>
+  <h6>{counts[i]}</h6> {/* Counter Animation */}
+  
+  {items.desc === "Verified Reviews" ? (
+    <a 
+      href="https://www.checkatrade.com/give-feedback/trades/SsjbContractorsLtd?utm_source=277945&utm_medium=ReviewWidget&utm_id=ReviewCollector" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
+      <p style={{ fontSize: "22px", color: "black" }}>{items.desc}</p>
+      <p>{items.desc2}</p>
+    </a>
+  ) : (
+    <>
+      <p style={{ fontSize: "22px", color: "black" }}>{items.desc}</p>
+      <p>{items.desc2}</p>
+    </>
+  )}
+</Col>
+
                     ))}
                 </Row>
             </div>

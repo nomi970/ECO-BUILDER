@@ -32,7 +32,7 @@ function Projects() {
                       to={`/projects/${item.id}?title=${title}`}
                       className={style.blogCard}
                     >
-                      <img src={item.blogImag} alt="" />
+                      <img src={item.blogImag} alt="project-images" />
                       <h2>{item.title}</h2>
                       <div className={style.use_row}>
                         <div>
@@ -62,7 +62,7 @@ function Projects() {
                         className={style.blogCard}
                       >
                         <div className={style.right_sidebar__flx_wraper}>
-                          <img src={item.blogImag} alt="" />
+                          <img src={item.blogImag} alt="project-images" />
                           <div>
                             <h2>{item.title}</h2>
                             <div className={style.use_row}>

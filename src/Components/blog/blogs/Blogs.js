@@ -17,7 +17,7 @@ export const Blogs = () => {
                             return (
                                 <div key={item.id} className={style.blog_col}>
                                 <Link to={`/service/${item.id}?title=${title}`} className={style.blogCard}>
-                                    <img src={item.blogImag} alt='' />
+                                    <img src={item.blogImag} alt='blogs-images' />
                                     <h2>{item.title}</h2>
                                     <div className={style.use_row}>
                                         <div>

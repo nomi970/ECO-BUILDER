@@ -46,34 +46,73 @@
     };
   </script>
   <script src="https://www.checkatrade.com/static/js/widget.js"></script> -->
- <style>
-  .widget_main{
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    z-index: 10;
-  }
-  .body{
-    position: relative;
-  }
- </style>
+  <style>
+    .widget_main {
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      z-index: 10;
+    }
+
+    .body {
+      position: relative;
+    }
+
+    .widget_main svg {
+      display: none !important;
+      /* hide checkatrade logo */
+    }
+
+    .widget_main div {
+      position: relative;
+    }
+
+    .widget_main div::after {
+      /* content: "View Our Profile"; */
+      /* your custom text */
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background: #0073e6;
+      /* match button theme */
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 
 <body>
-  
+
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 </body>
 <div class="widget_main">
 
-        <script>
-            window._checkatradeConfig = {
-                companyId: "277945",
-                uniqueName: "SsjbContractorsLtd",
-                theme: "blue",
-            };
-        </script>
-        <script src="https://www.checkatrade.com/static/js/widget.js"></script>
-    </div>
+  <script>
+    window._checkatradeConfig = {
+      companyId: "277945",
+      uniqueName: "SsjbContractorsLtd",
+      theme: "blue",
+    };
+  </script>
+  <script>
+    window.addEventListener("load", function () {
+      const widgetBtn = document.querySelector(".widget_main div");
+      if (widgetBtn) {
+        widgetBtn.innerHTML = `
+        <a href="https://www.checkatrade.com/trades/SsjbContractorsLtd" target="_blank" style="text-decoration:none;">
+          <button style="padding:10px 20px; background:#0073e6; color:#fff; border:none; border-radius:5px; cursor:pointer;">
+            Leave us a Review
+          </button>
+        </a>
+      `;
+      }
+    });
+  </script>
+
+
+  <script src="https://www.checkatrade.com/static/js/widget.js"></script>
+</div>
+
 </html>
