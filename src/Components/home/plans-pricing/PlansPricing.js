@@ -169,7 +169,7 @@ export const PlansPricing = () => {
                     <p>Pay Monthly</p>
                     <AntSwitch defaultChecked inputProps={{ 'aria-label': 'ant design' }} className={style.switch}/>
                     <p>Pay Yearly</p>
-                    <img src='./images/save.png' alt='' />
+                    <img src='./images/save.png' alt='save-image' />
                 </FormGroup>
                 <Row className={style.pricing_row}>
                     {
@@ -185,7 +185,7 @@ export const PlansPricing = () => {
                                             list.map(({titleList, img})=>{
                                                 return(
                                                     <li>
-                                                        <img src={img} alt="" />
+                                                        <img src={img} alt="titleList-image" />
                                                         {titleList}
                                                     </li>
                                                 )

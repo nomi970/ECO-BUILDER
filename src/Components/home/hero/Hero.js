@@ -38,7 +38,7 @@ export const Hero = () => {
             <section className={`${style.approvesd_sec}`}>
                 <div className="custom-container">
                     <h4>Approved By</h4>
-                    <img className={`${style.approved_im}`} src='./images/Approved.jpeg'></img>
+                    <img className={`${style.approved_im}`} src='./images/Approved.jpeg' alt='Approved-trusted-image'></img>
                     <h2 className='mt-4'>Recognised & Trusted Across Berkshire and West London</h2>
                     <p className="" style={{ fontSize: "20px", paddingTop: "22px" }}>
                         Our reputation is built on more than words - it’s backed by proven results and independent accreditations:

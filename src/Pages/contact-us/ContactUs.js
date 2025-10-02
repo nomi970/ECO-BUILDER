@@ -3,6 +3,7 @@ import { Numbers } from '../../Components/global/numbers/Numbers'
 import {Banner} from '../../Components/contact/banner/Banner'
 import ContactSection from '../../Components/global/contactSection/contactSection'
 import Touch from '../../Components/global/touch/touch'
+import CoverArea from '../../Components/home/hero/cover-area'
 
 export const ContactUs = () => {
   useEffect(()=>{
@@ -12,7 +13,7 @@ export const ContactUs = () => {
      {
       title : "61",
       desc : "Verified Reviews",
-      desc2 : "Checkatrade score 9.63/10"
+      desc2 : "Checkatrade score 9.63/10 - Member since 2014"
     },
     {
       title: "15+",
@@ -34,6 +35,7 @@ export const ContactUs = () => {
   return (
     <>
       <Banner />
+      <CoverArea />
       
       
       <Numbers 

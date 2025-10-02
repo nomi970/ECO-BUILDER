@@ -69,7 +69,7 @@ export const OurCustomer = () => {
                 return (
                   <SwiperSlide>
                     <div className={style.testimonial_col}>
-                      <img src={img} alt='' />
+                      {/* <img src={img} alt='' /> */}
                       <p>{para}</p>
                       <p style={{ fontWeight: 700, color: 'black', paddingTop: '15px', fontSize: '20px' }}>{des}</p>
                       <h6 style={{ fontStyle: "italic" }}>" {clientname} "</h6>

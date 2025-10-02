@@ -28,13 +28,13 @@ export const EasySteps = () => {
                                     <Col key={i.toString()}>
                                         <Row className={style.steps_inner__row}>
                                             <Col className='p-0'>
-                                                <img src={img} alt='' />
+                                                <img src={img} alt='Trusted builders-image' />
                                             </Col>
                                             <Col className='p-0'>
                                                 {/* <h3>{i+1}</h3> */}
-                                                <h2>{title}</h2>
-                                                <p style={{fontSize: "15px"}}>{desc}</p>
-                                                <div className={style.steps_btn}>
+                                                <h2 className='mb-4'>{title}</h2>
+                                                <p className='mb-5' style={{fontSize: "15px", marginBottom: '20px !important'}}>{desc}</p>
+                                                <div className={style.steps_btn} style={{marginBottom: "15px"}}>
                                                     <Link to="/about" className={`${style.readmore}`}>Read More</Link>
                                                 </div>
                                             </Col>
